@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-QCharge/Pods-QCharge-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CircleBar/CircleBar.framework
+${BUILT_PRODUCTS_DIR}/FlexibleSteppedProgressBar/FlexibleSteppedProgressBar.framework
+${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework
+${BUILT_PRODUCTS_DIR}/SimpleCheckbox/SimpleCheckbox.framework
+${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework
+${BUILT_PRODUCTS_DIR}/SwipeableTabBarController/SwipeableTabBarController.framework

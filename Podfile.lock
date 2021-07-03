@@ -1,0 +1,36 @@
+PODS:
+  - CircleBar (0.8.2)
+  - FlexibleSteppedProgressBar (0.6.3)
+  - SCLAlertView (0.8)
+  - SimpleCheckbox (2.1.0)
+  - SkyFloatingLabelTextField (4.0.0)
+  - SwipeableTabBarController (3.4.2)
+
+DEPENDENCIES:
+  - CircleBar
+  - FlexibleSteppedProgressBar (~> 0.6)
+  - SCLAlertView (~> 0.8)
+  - SimpleCheckbox (~> 2.1)
+  - SkyFloatingLabelTextField (~> 4.0)
+  - SwipeableTabBarController
+
+SPEC REPOS:
+  trunk:
+    - CircleBar
+    - FlexibleSteppedProgressBar
+    - SCLAlertView
+    - SimpleCheckbox
+    - SkyFloatingLabelTextField
+    - SwipeableTabBarController
+
+SPEC CHECKSUMS:
+  CircleBar: 8e17d2090e6e319b518010535a3145fb8fd68c22
+  FlexibleSteppedProgressBar: 37741b5cd0cd14f2e2118b597b81d0a6534f4d5a
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SimpleCheckbox: ddcd433ab8c3a8f57300bebda13151a8f302c7f9
+  SkyFloatingLabelTextField: 79ddc40e4ad59707fedbb48d605417aee48bb78a
+  SwipeableTabBarController: 9a218bdee9426d1bfe36d7962f852024bb08d61b
+
+PODFILE CHECKSUM: 2885911812e9d9a98807cb1a137f869bd742df25
+
+COCOAPODS: 1.10.1

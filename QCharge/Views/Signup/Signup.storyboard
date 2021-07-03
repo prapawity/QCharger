@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Signup View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="SignupViewController" customModule="QCharge" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YyS-8r-oY3" customClass="FlexibleSteppedProgressBar" customModule="FlexibleSteppedProgressBar">
+                                <rect key="frame" x="20" y="44" width="374" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="5Dg-oi-adL"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="numberOfPoints">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineHeight">
+                                        <real key="value" value="9"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="radius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="progressRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="progressLineHeight">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="displayStepText" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedBackgoundColor">
+                                        <color key="value" red="1" green="0.62352941179999999" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XnX-rg-TF9">
+                                <rect key="frame" x="16" y="164" width="382" height="732"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="XnX-rg-TF9" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="5aG-41-0e0"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="XnX-rg-TF9" secondAttribute="trailing" constant="16" id="DR2-uh-ZQD"/>
+                            <constraint firstItem="XnX-rg-TF9" firstAttribute="top" secondItem="YyS-8r-oY3" secondAttribute="bottom" constant="20" id="Dmr-9i-azV"/>
+                            <constraint firstItem="YyS-8r-oY3" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="HK9-pD-5yM"/>
+                            <constraint firstItem="YyS-8r-oY3" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="hKt-9B-f8h"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="YyS-8r-oY3" secondAttribute="trailing" constant="20" id="sjp-oC-soh"/>
+                            <constraint firstAttribute="bottom" secondItem="XnX-rg-TF9" secondAttribute="bottom" id="zsO-cm-LWs"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="stepperView" destination="YyS-8r-oY3" id="VJX-Le-p1b"/>
+                        <outlet property="tableView" destination="XnX-rg-TF9" id="eWc-zq-eeR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10" y="65"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

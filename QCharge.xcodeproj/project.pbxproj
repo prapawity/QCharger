@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,24 @@
 		178DEEE72690229700BE73F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178DEEE52690229700BE73F3 /* Main.storyboard */; };
 		178DEEE92690229800BE73F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178DEEE82690229800BE73F3 /* Assets.xcassets */; };
 		178DEEEC2690229800BE73F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178DEEEA2690229800BE73F3 /* LaunchScreen.storyboard */; };
+		178DEEFB269025F200BE73F3 /* ViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178DEEFA269025F200BE73F3 /* ViewControllerFactory.swift */; };
+		178DEEFE269028C300BE73F3 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178DEEFD269028C300BE73F3 /* Login.storyboard */; };
+		178DEF00269028E100BE73F3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178DEEFF269028E100BE73F3 /* LoginViewController.swift */; };
+		178DEF0326902BA000BE73F3 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178DEF0226902BA000BE73F3 /* SplashScreen.storyboard */; };
+		178DEF0526902BB800BE73F3 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178DEF0426902BB800BE73F3 /* SplashScreenViewController.swift */; };
+		178DEF0726903E0E00BE73F3 /* SuperExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178DEF0626903E0E00BE73F3 /* SuperExtension.swift */; };
+		178DEF0A26905FDB00BE73F3 /* Signup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178DEF0926905FDB00BE73F3 /* Signup.storyboard */; };
+		178DEF0C2690605000BE73F3 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178DEF0B2690605000BE73F3 /* SignupViewController.swift */; };
+		178DEF1126906B5400BE73F3 /* TermAndConditionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178DEF0F26906B5400BE73F3 /* TermAndConditionTableViewCell.swift */; };
+		178DEF1226906B5400BE73F3 /* TermAndConditionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178DEF1026906B5400BE73F3 /* TermAndConditionTableViewCell.xib */; };
+		178DEF1526906EE500BE73F3 /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178DEF1426906EE500BE73F3 /* SignupViewModel.swift */; };
+		178DEF192690885000BE73F3 /* VerifyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178DEF172690884F00BE73F3 /* VerifyTableViewCell.swift */; };
+		178DEF1A2690885000BE73F3 /* VerifyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178DEF182690884F00BE73F3 /* VerifyTableViewCell.xib */; };
+		6A366A4434A9E97F5A2FB719 /* Pods_QCharge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC3E04628308FEE14C224E1 /* Pods_QCharge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BF648ED4228ABC76B927D9B /* Pods-QCharge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QCharge.debug.xcconfig"; path = "Target Support Files/Pods-QCharge/Pods-QCharge.debug.xcconfig"; sourceTree = "<group>"; };
 		178DEEDC2690229700BE73F3 /* QCharge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QCharge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		178DEEDF2690229700BE73F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		178DEEE12690229700BE73F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,21 @@
 		178DEEE82690229800BE73F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		178DEEEB2690229800BE73F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		178DEEED2690229800BE73F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		178DEEFA269025F200BE73F3 /* ViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFactory.swift; sourceTree = "<group>"; };
+		178DEEFD269028C300BE73F3 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Login.storyboard; path = QCharge/Controllers/Login.storyboard; sourceTree = SOURCE_ROOT; };
+		178DEEFF269028E100BE73F3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		178DEF0226902BA000BE73F3 /* SplashScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
+		178DEF0426902BB800BE73F3 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		178DEF0626903E0E00BE73F3 /* SuperExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperExtension.swift; sourceTree = "<group>"; };
+		178DEF0926905FDB00BE73F3 /* Signup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Signup.storyboard; sourceTree = "<group>"; };
+		178DEF0B2690605000BE73F3 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		178DEF0F26906B5400BE73F3 /* TermAndConditionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermAndConditionTableViewCell.swift; sourceTree = "<group>"; };
+		178DEF1026906B5400BE73F3 /* TermAndConditionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TermAndConditionTableViewCell.xib; sourceTree = "<group>"; };
+		178DEF1426906EE500BE73F3 /* SignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
+		178DEF172690884F00BE73F3 /* VerifyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyTableViewCell.swift; sourceTree = "<group>"; };
+		178DEF182690884F00BE73F3 /* VerifyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VerifyTableViewCell.xib; sourceTree = "<group>"; };
+		2DC3E04628308FEE14C224E1 /* Pods_QCharge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QCharge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE5335C4E27F1F967BC1D287 /* Pods-QCharge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QCharge.release.xcconfig"; path = "Target Support Files/Pods-QCharge/Pods-QCharge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A366A4434A9E97F5A2FB719 /* Pods_QCharge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +73,8 @@
 			children = (
 				178DEEDE2690229700BE73F3 /* QCharge */,
 				178DEEDD2690229700BE73F3 /* Products */,
+				787E83568F184FF656F8A79E /* Pods */,
+				6F058A97D641ADD56C018FA9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +89,9 @@
 		178DEEDE2690229700BE73F3 /* QCharge */ = {
 			isa = PBXGroup;
 			children = (
+				178DEEF5269024DA00BE73F3 /* Controllers */,
+				178DEEF4269024CC00BE73F3 /* Models */,
+				178DEEF3269024C000BE73F3 /* Views */,
 				178DEEDF2690229700BE73F3 /* AppDelegate.swift */,
 				178DEEE12690229700BE73F3 /* SceneDelegate.swift */,
 				178DEEE32690229700BE73F3 /* ViewController.swift */,
@@ -67,6 +103,113 @@
 			path = QCharge;
 			sourceTree = "<group>";
 		};
+		178DEEF3269024C000BE73F3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				178DEF0826905FC800BE73F3 /* Signup */,
+				178DEF0126902B8E00BE73F3 /* SplashScreen */,
+				178DEEFC269028A600BE73F3 /* LoginPage */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		178DEEF4269024CC00BE73F3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		178DEEF5269024DA00BE73F3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				178DEF1326906E5100BE73F3 /* Views */,
+				178DEEFA269025F200BE73F3 /* ViewControllerFactory.swift */,
+				178DEF0626903E0E00BE73F3 /* SuperExtension.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		178DEEFC269028A600BE73F3 /* LoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				178DEEFD269028C300BE73F3 /* Login.storyboard */,
+				178DEEFF269028E100BE73F3 /* LoginViewController.swift */,
+			);
+			path = LoginPage;
+			sourceTree = "<group>";
+		};
+		178DEF0126902B8E00BE73F3 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				178DEF0226902BA000BE73F3 /* SplashScreen.storyboard */,
+				178DEF0426902BB800BE73F3 /* SplashScreenViewController.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		178DEF0826905FC800BE73F3 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				178DEF0D26906B1100BE73F3 /* Cell */,
+				178DEF0926905FDB00BE73F3 /* Signup.storyboard */,
+				178DEF0B2690605000BE73F3 /* SignupViewController.swift */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		178DEF0D26906B1100BE73F3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				178DEF16269085B700BE73F3 /* Verify */,
+				178DEF0E26906B2500BE73F3 /* Term&Condition */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		178DEF0E26906B2500BE73F3 /* Term&Condition */ = {
+			isa = PBXGroup;
+			children = (
+				178DEF0F26906B5400BE73F3 /* TermAndConditionTableViewCell.swift */,
+				178DEF1026906B5400BE73F3 /* TermAndConditionTableViewCell.xib */,
+			);
+			path = "Term&Condition";
+			sourceTree = "<group>";
+		};
+		178DEF1326906E5100BE73F3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				178DEF1426906EE500BE73F3 /* SignupViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		178DEF16269085B700BE73F3 /* Verify */ = {
+			isa = PBXGroup;
+			children = (
+				178DEF172690884F00BE73F3 /* VerifyTableViewCell.swift */,
+				178DEF182690884F00BE73F3 /* VerifyTableViewCell.xib */,
+			);
+			path = Verify;
+			sourceTree = "<group>";
+		};
+		6F058A97D641ADD56C018FA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DC3E04628308FEE14C224E1 /* Pods_QCharge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		787E83568F184FF656F8A79E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BF648ED4228ABC76B927D9B /* Pods-QCharge.debug.xcconfig */,
+				BE5335C4E27F1F967BC1D287 /* Pods-QCharge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 178DEEF02690229800BE73F3 /* Build configuration list for PBXNativeTarget "QCharge" */;
 			buildPhases = (
+				DC72CFC75E2B72FA7A96951D /* [CP] Check Pods Manifest.lock */,
 				178DEED82690229700BE73F3 /* Sources */,
 				178DEED92690229700BE73F3 /* Frameworks */,
 				178DEEDA2690229700BE73F3 /* Resources */,
+				E77A4CA8EBC811B07C1B7B41 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,20 +269,75 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				178DEF1A2690885000BE73F3 /* VerifyTableViewCell.xib in Resources */,
 				178DEEEC2690229800BE73F3 /* LaunchScreen.storyboard in Resources */,
 				178DEEE92690229800BE73F3 /* Assets.xcassets in Resources */,
+				178DEEFE269028C300BE73F3 /* Login.storyboard in Resources */,
+				178DEF0326902BA000BE73F3 /* SplashScreen.storyboard in Resources */,
+				178DEF0A26905FDB00BE73F3 /* Signup.storyboard in Resources */,
 				178DEEE72690229700BE73F3 /* Main.storyboard in Resources */,
+				178DEF1226906B5400BE73F3 /* TermAndConditionTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DC72CFC75E2B72FA7A96951D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QCharge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E77A4CA8EBC811B07C1B7B41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QCharge/Pods-QCharge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QCharge/Pods-QCharge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QCharge/Pods-QCharge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		178DEED82690229700BE73F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				178DEF00269028E100BE73F3 /* LoginViewController.swift in Sources */,
+				178DEF1126906B5400BE73F3 /* TermAndConditionTableViewCell.swift in Sources */,
 				178DEEE42690229700BE73F3 /* ViewController.swift in Sources */,
+				178DEF0C2690605000BE73F3 /* SignupViewController.swift in Sources */,
+				178DEF0526902BB800BE73F3 /* SplashScreenViewController.swift in Sources */,
+				178DEEFB269025F200BE73F3 /* ViewControllerFactory.swift in Sources */,
+				178DEF192690885000BE73F3 /* VerifyTableViewCell.swift in Sources */,
+				178DEF1526906EE500BE73F3 /* SignupViewModel.swift in Sources */,
+				178DEF0726903E0E00BE73F3 /* SuperExtension.swift in Sources */,
 				178DEEE02690229700BE73F3 /* AppDelegate.swift in Sources */,
 				178DEEE22690229700BE73F3 /* SceneDelegate.swift in Sources */,
 			);
@@ -283,6 +483,7 @@
 		};
 		178DEEF12690229800BE73F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BF648ED4228ABC76B927D9B /* Pods-QCharge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +503,7 @@
 		};
 		178DEEF22690229800BE73F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE5335C4E27F1F967BC1D287 /* Pods-QCharge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
