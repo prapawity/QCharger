@@ -8,7 +8,7 @@
 import UIKit
 
 protocol VerifyTableViewCellDelegate: NSObject {
-    func VerifyTableViewCellRequestOTP(cell: VerifyTableViewCell)
+    func VerifyTableViewCellRequestOTP(cell: VerifyTableViewCell, mobileNumber: String)
 }
 
 class VerifyTableViewCell: UITableViewCell {
@@ -35,7 +35,9 @@ class VerifyTableViewCell: UITableViewCell {
     }
     
     @IBAction func tapRequestOTP(_ sender: Any) {
-        delegate?.VerifyTableViewCellRequestOTP(cell: self)
+        guard let txt = mobileNumberTextfield.text else { return }
+        
+        delegate?.VerifyTableViewCellRequestOTP(cell: self, mobileNumber: txt)
     }
 }
 

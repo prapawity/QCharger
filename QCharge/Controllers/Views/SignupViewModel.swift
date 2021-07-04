@@ -31,6 +31,14 @@ enum DataForSinupSection: Int, CaseIterable {
 
 final class SignupViewModel {
     let numberOfSections = 4
+    var mobileNumber: String?
+    var firstName: String?
+    var lastName: String?
+    var email: String?
+    var password: String?
+    var carBrand: String = CarBrandType.toyota.stringValue()
+    var carLicense: String?
+    var carModel: String?
     
     func numberOfRowsInSection(section: Int) -> Int {
         switch DataForSinupSection(rawValue: section) {
