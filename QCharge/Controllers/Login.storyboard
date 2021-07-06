@@ -219,6 +219,8 @@
                     </view>
                     <connections>
                         <outlet property="bgImageView" destination="Vq7-FY-fLN" id="7UV-Q9-cRb"/>
+                        <outlet property="emailTF" destination="3sN-Gl-O5F" id="YUj-Vd-h9D"/>
+                        <outlet property="passwordTF" destination="WlE-NG-ux7" id="vEj-j4-nSt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -127,6 +127,7 @@ extension SignupViewController: UITableViewDataSource, UITableViewDelegate {
             } else if indexPath.row == 10 {
                 guard let cell = tableView.dequeueReusableCell(withIdentifier: "registercell", for: indexPath) as? RegisterTableViewCell else { return UITableViewCell() }
                 cell.delegate = self
+                cell.registerBtn.setTitle("Confirm", for: .normal)
                 return cell
             } else {
                 guard let cell = tableView.dequeueReusableCell(withIdentifier: "personaltf", for: indexPath) as? KeyWithTFTableViewCell else { return UITableViewCell() }
@@ -135,8 +136,65 @@ extension SignupViewController: UITableViewDataSource, UITableViewDelegate {
                 cell.delegate = self
                 return cell
             }
+        case .success:
+            if [0, 6].contains(indexPath.row) {
+                let cell = UITableViewCell()
+                cell.backgroundColor = UIColor(red: 0.92, green: 0.92, blue: 0.92, alpha: 1.00)
+                cell.textLabel?.text = indexPath.row == 0 ? "Personal Information" : "Vehicle Information"
+                return cell
+            } else if indexPath.row == 7 {
+                guard let cell = tableView.dequeueReusableCell(withIdentifier: "personalbtn", for: indexPath) as? KeyWithBtnTableViewCell else { return UITableViewCell() }
+                let dataSource = CarBrandType.allCases.map { brand in
+                    return brand.stringValue()
+                }
+                let selectedIndex = dataSource.enumerated().filter { index, item in
+                    return item == viewModel.carBrand
+                }
+                
+                cell.setCell(key: "Car brand", listData: dataSource)
+                cell.picker.isUserInteractionEnabled = false
+                cell.picker.selectRow(selectedIndex[0].offset, inComponent: 0, animated: false)
+                cell.delegate = self
+                return cell
+            } else if indexPath.row == 10 {
+                guard let cell = tableView.dequeueReusableCell(withIdentifier: "registercell", for: indexPath) as? RegisterTableViewCell else { return UITableViewCell() }
+                cell.delegate = self
+                cell.isRegisterState = true
+                cell.registerBtn.setTitle("Register", for: .normal)
+                return cell
+            } else {
+                guard let cell = tableView.dequeueReusableCell(withIdentifier: "personaltf", for: indexPath) as? KeyWithTFTableViewCell else { return UITableViewCell() }
+                
+                cell.setupCell(type: KeyType(rawValue: indexPath.row) ?? .personal)
+                cell.valueTF.text = getValueCell(type: KeyType(rawValue: indexPath.row) ?? .personal)
+                cell.valueTF.isEnabled = false
+                cell.delegate = self
+                return cell
+            }
         default:
             return UITableViewCell()
+        }
+    }
+    
+    private func getValueCell(type: KeyType) -> String {
+        switch type {
+        case .firstName:
+            return viewModel.firstName ?? ""
+        case .lastName:
+            return viewModel.lastName ?? ""
+        case .email:
+            return viewModel.email ?? ""
+        case .password:
+            return viewModel.password ?? ""
+        case .confirmPassword:
+            return viewModel.password ?? ""
+        case .carBrand:
+            return viewModel.carBrand
+        case .carModel:
+            return viewModel.carModel ?? ""
+        case .license:
+            return viewModel.carLicense ?? ""
+        default: return ""
         }
     }
 }
@@ -189,28 +247,34 @@ extension SignupViewController: KeyWithBtnTableViewCellDelegate {
 }
 
 extension SignupViewController: RegisterTableViewCellDelegate {
-    func RegisterTableViewCellDidTapRegister(cell: RegisterTableViewCell) {
-        guard let firstName = viewModel.firstName,
-              let lastName = viewModel.lastName,
-              let email = viewModel.email,
-              let password = viewModel.password,
-              let carModel = viewModel.carModel,
-              let license = viewModel.carLicense
-        else { return }
-        
-        let carBrandType = CarBrandType.allCases.filter { type in
-            return type.stringValue() == viewModel.carBrand
+    func RegisterTableViewCellDidTapRegister(cell: RegisterTableViewCell, isRegisterState: Bool) {
+        if isRegisterState {
+            guard let firstName = viewModel.firstName,
+                  let lastName = viewModel.lastName,
+                  let email = viewModel.email,
+                  let password = viewModel.password,
+                  let carModel = viewModel.carModel,
+                  let license = viewModel.carLicense,
+                  let mobileNumber = viewModel.mobileNumber
+            else { return }
+            
+            let carBrandType = CarBrandType.allCases.filter { type in
+                return type.stringValue() == viewModel.carBrand
+            }
+            let vehicleInfo = VehicleModel(carBrand: carBrandType[0],
+                                           carModel: carModel,
+                                           carLicense: license)
+            let userData = UserModel(firstName: firstName,
+                                     lastName: lastName,
+                                     email: email,
+                                     password: password,
+                                     mobileNumber: mobileNumber,
+                                     vehicleInfo: vehicleInfo)
+            
+            BaseController.shared.registerUser(user: userData)
+            redirectToLoginPage()
+        } else {
+            updateStateStepper(index: 3)
         }
-        let vehicleInfo = VehicleModel(carBrand: carBrandType[0],
-                                       carModel: carModel,
-                                       carLicense: license)
-        let userData = UserModel(firstName: firstName,
-                                 lastName: lastName,
-                                 email: email,
-                                 password: password,
-                                 vehicleInfo: vehicleInfo)
-        
-        BaseController.shared.registerUser(user: userData)
-        redirectToLoginPage()
     }
 }

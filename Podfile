@@ -12,4 +12,5 @@ target 'QCharge' do
   pod 'SwipeableTabBarController'
   pod 'SimpleCheckbox', '~> 2.1'
   pod 'SCLAlertView', '~> 0.8'
+  pod 'CircleProgressBar', '~> 0.32’
 end

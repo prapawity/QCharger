@@ -49,7 +49,7 @@ final class SignupViewModel {
         case .personalInfo:
             return 11
         case .success:
-            return 1
+            return 11
         default: return 0
         }
     }

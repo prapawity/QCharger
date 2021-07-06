@@ -42,6 +42,9 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="registerBtn" destination="b23-7F-Ph0" id="HDd-js-3G4"/>
+            </connections>
             <point key="canvasLocation" x="21.739130434782609" y="70.3125"/>
         </tableViewCell>
     </objects>

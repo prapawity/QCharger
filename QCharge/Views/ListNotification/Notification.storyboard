@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--List Notification View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="ListNotificationViewController" customModule="QCharge" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="c3U-2d-v5F">
+                                <rect key="frame" x="0.0" y="44" width="414" height="786"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="237" id="cvW-yg-1gw">
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="237"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cvW-yg-1gw" id="VVF-l6-UFB">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="237"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hc3-yD-TdQ">
+                                                    <rect key="frame" x="16" y="16" width="382" height="221"/>
+                                                    <subviews>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="DGg-48-pcw">
+                                                            <rect key="frame" x="16" y="16" width="350" height="189"/>
+                                                            <subviews>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car" translatesAutoresizingMaskIntoConstraints="NO" id="zr7-7L-3CT">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="100" height="189"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" constant="100" id="Otf-BJ-DnO"/>
+                                                                        <constraint firstAttribute="height" constant="100" id="hl1-zb-SLd"/>
+                                                                    </constraints>
+                                                                </imageView>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time to charge 10 hour charging 50% amount 100 Baht" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bkQ-Kg-FPl">
+                                                                    <rect key="frame" x="110" y="0.0" width="240" height="189"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="bottom" secondItem="DGg-48-pcw" secondAttribute="bottom" constant="16" id="N1A-EZ-Z9k"/>
+                                                        <constraint firstItem="DGg-48-pcw" firstAttribute="leading" secondItem="Hc3-yD-TdQ" secondAttribute="leading" constant="16" id="e46-zW-4Sv"/>
+                                                        <constraint firstAttribute="trailing" secondItem="DGg-48-pcw" secondAttribute="trailing" constant="16" id="mkN-zn-Zyf"/>
+                                                        <constraint firstItem="DGg-48-pcw" firstAttribute="top" secondItem="Hc3-yD-TdQ" secondAttribute="top" constant="16" id="xD8-Dk-WXm"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="10"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="Hc3-yD-TdQ" secondAttribute="bottom" id="KQi-Lw-EiN"/>
+                                                <constraint firstAttribute="trailing" secondItem="Hc3-yD-TdQ" secondAttribute="trailing" constant="16" id="PD3-RW-Gln"/>
+                                                <constraint firstItem="Hc3-yD-TdQ" firstAttribute="leading" secondItem="VVF-l6-UFB" secondAttribute="leading" constant="16" id="iGX-LW-t8S"/>
+                                                <constraint firstItem="Hc3-yD-TdQ" firstAttribute="top" secondItem="VVF-l6-UFB" secondAttribute="top" constant="16" id="tRA-zF-bKC"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableViewCell>
+                                </prototypes>
+                                <sections/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Y6W-OH-hqX" id="Gmr-Vc-v8L"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" red="1" green="0.62352941179999999" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="c3U-2d-v5F" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="7O5-TH-bxV"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="c3U-2d-v5F" secondAttribute="bottom" constant="32" id="mb8-ei-4vB"/>
+                            <constraint firstItem="c3U-2d-v5F" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="rrn-t9-RLf"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="c3U-2d-v5F" secondAttribute="trailing" id="s5l-Fb-6iM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="c3U-2d-v5F" id="GSC-D6-r1u"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="20.758928571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="car" width="640" height="427"/>
+    </resources>
+</document>

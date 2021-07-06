@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1756AA7A2691B2D600AAAA2C /* HomeBase.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1756AA792691B2D600AAAA2C /* HomeBase.storyboard */; };
+		1756AA7E2691B7C800AAAA2C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1756AA7D2691B7C700AAAA2C /* HomeViewController.swift */; };
+		1756AA802691B7F400AAAA2C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1756AA7F2691B7F400AAAA2C /* MapViewController.swift */; };
+		1756AA822691B81C00AAAA2C /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1756AA812691B81C00AAAA2C /* PaymentViewController.swift */; };
+		1756AA842691B83600AAAA2C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1756AA832691B83600AAAA2C /* ProfileViewController.swift */; };
 		178DEEE02690229700BE73F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178DEEDF2690229700BE73F3 /* AppDelegate.swift */; };
 		178DEEE22690229700BE73F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178DEEE12690229700BE73F3 /* SceneDelegate.swift */; };
 		178DEEE42690229700BE73F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178DEEE32690229700BE73F3 /* ViewController.swift */; };
@@ -36,11 +41,22 @@
 		178DEF2F26916B0500BE73F3 /* RegisterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178DEF2D26916B0400BE73F3 /* RegisterTableViewCell.swift */; };
 		178DEF3026916B0500BE73F3 /* RegisterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178DEF2E26916B0400BE73F3 /* RegisterTableViewCell.xib */; };
 		178DEF3226916F8500BE73F3 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178DEF3126916F8500BE73F3 /* BaseController.swift */; };
+		17E37F242692135200CD458C /* Notification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17E37F232692135200CD458C /* Notification.storyboard */; };
+		17E37F262692145500CD458C /* ListNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E37F252692145500CD458C /* ListNotificationViewController.swift */; };
+		17E37F2C2692E65F00CD458C /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E37F2B2692E65E00CD458C /* SettingViewController.swift */; };
+		17E37F2E2692EC4000CD458C /* SettingLabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E37F2D2692EC4000CD458C /* SettingLabelTableViewCell.swift */; };
+		17E37F302694045000CD458C /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E37F2F2694045000CD458C /* CheckoutViewController.swift */; };
+		17E37F3226941C0300CD458C /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E37F3126941C0200CD458C /* StatusViewController.swift */; };
 		6A366A4434A9E97F5A2FB719 /* Pods_QCharge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC3E04628308FEE14C224E1 /* Pods_QCharge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0BF648ED4228ABC76B927D9B /* Pods-QCharge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QCharge.debug.xcconfig"; path = "Target Support Files/Pods-QCharge/Pods-QCharge.debug.xcconfig"; sourceTree = "<group>"; };
+		1756AA792691B2D600AAAA2C /* HomeBase.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeBase.storyboard; sourceTree = "<group>"; };
+		1756AA7D2691B7C700AAAA2C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1756AA7F2691B7F400AAAA2C /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		1756AA812691B81C00AAAA2C /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		1756AA832691B83600AAAA2C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		178DEEDC2690229700BE73F3 /* QCharge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QCharge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		178DEEDF2690229700BE73F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		178DEEE12690229700BE73F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +88,12 @@
 		178DEF2D26916B0400BE73F3 /* RegisterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTableViewCell.swift; sourceTree = "<group>"; };
 		178DEF2E26916B0400BE73F3 /* RegisterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterTableViewCell.xib; sourceTree = "<group>"; };
 		178DEF3126916F8500BE73F3 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		17E37F232692135200CD458C /* Notification.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Notification.storyboard; sourceTree = "<group>"; };
+		17E37F252692145500CD458C /* ListNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNotificationViewController.swift; sourceTree = "<group>"; };
+		17E37F2B2692E65E00CD458C /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		17E37F2D2692EC4000CD458C /* SettingLabelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingLabelTableViewCell.swift; sourceTree = "<group>"; };
+		17E37F2F2694045000CD458C /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		17E37F3126941C0200CD458C /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
 		2DC3E04628308FEE14C224E1 /* Pods_QCharge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QCharge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE5335C4E27F1F967BC1D287 /* Pods-QCharge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QCharge.release.xcconfig"; path = "Target Support Files/Pods-QCharge/Pods-QCharge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +110,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1756AA782691B2A900AAAA2C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1756AA792691B2D600AAAA2C /* HomeBase.storyboard */,
+				1756AA7D2691B7C700AAAA2C /* HomeViewController.swift */,
+				1756AA7F2691B7F400AAAA2C /* MapViewController.swift */,
+				1756AA812691B81C00AAAA2C /* PaymentViewController.swift */,
+				1756AA832691B83600AAAA2C /* ProfileViewController.swift */,
+				17E37F2B2692E65E00CD458C /* SettingViewController.swift */,
+				17E37F2D2692EC4000CD458C /* SettingLabelTableViewCell.swift */,
+				17E37F2F2694045000CD458C /* CheckoutViewController.swift */,
+				17E37F3126941C0200CD458C /* StatusViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		178DEED32690229700BE73F3 = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +164,8 @@
 		178DEEF3269024C000BE73F3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				17E37F222692132500CD458C /* ListNotification */,
+				1756AA782691B2A900AAAA2C /* Home */,
 				178DEF0826905FC800BE73F3 /* Signup */,
 				178DEF0126902B8E00BE73F3 /* SplashScreen */,
 				178DEEFC269028A600BE73F3 /* LoginPage */,
@@ -231,6 +271,15 @@
 			path = PersonalInfo;
 			sourceTree = "<group>";
 		};
+		17E37F222692132500CD458C /* ListNotification */ = {
+			isa = PBXGroup;
+			children = (
+				17E37F232692135200CD458C /* Notification.storyboard */,
+				17E37F252692145500CD458C /* ListNotificationViewController.swift */,
+			);
+			path = ListNotification;
+			sourceTree = "<group>";
+		};
 		6F058A97D641ADD56C018FA9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -309,6 +358,8 @@
 			files = (
 				178DEF3026916B0500BE73F3 /* RegisterTableViewCell.xib in Resources */,
 				178DEF212690BFE000BE73F3 /* KeyWithTFTableViewCell.xib in Resources */,
+				1756AA7A2691B2D600AAAA2C /* HomeBase.storyboard in Resources */,
+				17E37F242692135200CD458C /* Notification.storyboard in Resources */,
 				178DEF1A2690885000BE73F3 /* VerifyTableViewCell.xib in Resources */,
 				178DEEEC2690229800BE73F3 /* LaunchScreen.storyboard in Resources */,
 				178DEEE92690229800BE73F3 /* Assets.xcassets in Resources */,
@@ -376,14 +427,23 @@
 				178DEEE42690229700BE73F3 /* ViewController.swift in Sources */,
 				178DEF282690C96500BE73F3 /* KeyWithBtnTableViewCell.swift in Sources */,
 				178DEF0C2690605000BE73F3 /* SignupViewController.swift in Sources */,
+				17E37F262692145500CD458C /* ListNotificationViewController.swift in Sources */,
 				178DEF1C2690B55200BE73F3 /* AlertOTP.swift in Sources */,
 				178DEF0526902BB800BE73F3 /* SplashScreenViewController.swift in Sources */,
 				178DEEFB269025F200BE73F3 /* ViewControllerFactory.swift in Sources */,
 				178DEF252690C2D500BE73F3 /* VehicleModel.swift in Sources */,
+				17E37F2C2692E65F00CD458C /* SettingViewController.swift in Sources */,
 				178DEF3226916F8500BE73F3 /* BaseController.swift in Sources */,
 				178DEF232690C22200BE73F3 /* UserModel.swift in Sources */,
+				17E37F302694045000CD458C /* CheckoutViewController.swift in Sources */,
+				1756AA802691B7F400AAAA2C /* MapViewController.swift in Sources */,
+				17E37F3226941C0300CD458C /* StatusViewController.swift in Sources */,
 				178DEF192690885000BE73F3 /* VerifyTableViewCell.swift in Sources */,
+				1756AA842691B83600AAAA2C /* ProfileViewController.swift in Sources */,
 				178DEF1526906EE500BE73F3 /* SignupViewModel.swift in Sources */,
+				1756AA7E2691B7C800AAAA2C /* HomeViewController.swift in Sources */,
+				1756AA822691B81C00AAAA2C /* PaymentViewController.swift in Sources */,
+				17E37F2E2692EC4000CD458C /* SettingLabelTableViewCell.swift in Sources */,
 				178DEF0726903E0E00BE73F3 /* SuperExtension.swift in Sources */,
 				178DEF2F26916B0500BE73F3 /* RegisterTableViewCell.swift in Sources */,
 				178DEEE02690229700BE73F3 /* AppDelegate.swift in Sources */,

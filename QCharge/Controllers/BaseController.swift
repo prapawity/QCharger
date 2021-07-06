@@ -14,6 +14,8 @@ private enum BaseKey: String {
 final class BaseController {
     static let shared = BaseController()
     private let userDefaults = UserDefaults.standard
+    private(set) var userSignedIn: UserModel?
+    
     func registerUser(user: UserModel) {
         var allUSer = getAllUser()
         allUSer.append(user)
@@ -22,8 +24,10 @@ final class BaseController {
         if let encoded = try? encoder.encode(allUSer){
             UserDefaults.standard.set(encoded, forKey: BaseKey.allUser.rawValue)
         }
-        
-        print("CHECK REGISTER", getAllUser())
+    }
+    
+    func updateBalance(balance: Double) {
+        userSignedIn?.balance = balance
     }
     
     private func getAllUser() -> [UserModel] {
@@ -38,6 +42,15 @@ final class BaseController {
     }
     
     func login(email: String, password: String) -> Bool {
-        return true
+        let user = getAllUser().filter { user in
+            return user.email == email && user.password == password
+        }
+        
+        if user.count == 1 {
+            userSignedIn = user[0]
+            return true
+        } else {
+            return false
+        }
     }
 }

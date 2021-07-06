@@ -18,6 +18,10 @@ extension UIView {
             childView.trailingAnchor.constraint(equalTo: trailingAnchor)
         ])
     }
+    
+    func addShadow() {
+        layer.applyShadow(x: 0, y: 12, blur: 32, spread: 0)
+    }
 }
 
 extension UIImageView {
@@ -56,8 +60,8 @@ extension UIViewController {
     }
     
     func removeKeyboardObserver(){
-            NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillChangeFrameNotification, object: nil)
-        }
+        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillChangeFrameNotification, object: nil)
+    }
     
     @objc private func hideKeyboard() {
         view.endEditing(true)
@@ -117,5 +121,28 @@ extension UIResponder {
     
     @objc private func trap() {
         UIResponder.responder = self
+    }
+}
+
+extension CALayer {
+    public func applyShadow(
+        color: UIColor = .black,
+        alpha: Float = 0.2,
+        x: CGFloat = 0,
+        y: CGFloat = 4,
+        blur: CGFloat = 8,
+        spread: CGFloat = 0)
+    {
+        shadowColor = color.cgColor
+        shadowOpacity = alpha
+        shadowOffset = CGSize(width: x, height: y)
+        shadowRadius = blur / 2.0
+        if spread == 0 {
+            shadowPath = nil
+        } else {
+            let dx = -spread
+            let rect = bounds.insetBy(dx: dx, dy: dx)
+            shadowPath = UIBezierPath(rect: rect).cgPath
+        }
     }
 }

@@ -7,174 +7,199 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		017DA6C233AB4F008271427C8891FD3F /* Pods-QCharge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C6E8075C868DE4E822F6D450A51EEC /* Pods-QCharge-dummy.m */; };
-		0321DD013108CB0610406A1B87D89D3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		0A75F7B270D2FCF996AFECBD42C8FA0A /* SwipeTransitioningProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEF894BE3D6579F996D3D137965B685 /* SwipeTransitioningProtocol.swift */; };
-		0D3EA1583F7A3FA4873D16D8F5892866 /* SwipeTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A153C75C2C559C1E99E627DB3B9C784E /* SwipeTransitionAnimator.swift */; };
-		0E5B11DB044119F6999D82086D75FB09 /* SwipeableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B948DDAABEBD9EBB83F8DB6D2A57DF57 /* SwipeableTabBarController.swift */; };
-		10CC0DED42AC8D413BCA321D4A72C415 /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D56993788F9B866830164A27EBE44A /* UITextField+fixCaretPosition.swift */; };
-		13A2E80D7F76724948578DB323F549B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
-		1546AA44A344F9C29A7B5CC239C84F67 /* UIKit+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63855E8C1D7F721A7B150722657890DA /* UIKit+Extensions.swift */; };
-		157AA416DF5D4F2E92A3623A2215F9C8 /* SwipeableTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CC2BAB7F7265A34B6DCBA7562E154DE /* SwipeableTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		19FF562090E9B5776B5E6EA300084481 /* SwipeableTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAB7A23ABD1C5042F92A80A78DEDC47 /* SwipeableTabBarController-dummy.m */; };
-		2744447A1042C62F82958FCD67C7196D /* SimpleCheckbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25976F11F487C1017426B434E54576FF /* SimpleCheckbox-dummy.m */; };
-		2769598AEC9639B792C03FAA0C225A50 /* FlexibleSteppedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A0EAB650BEDCD9F61BC7CCF9DEA44B /* FlexibleSteppedProgressBar.swift */; };
-		298E4F1A7F3DFD1F512EF7561C18CD20 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6560EAF9788959007510BE007D86711B /* SCLAlertView.swift */; };
-		2E9B4F0189FD79C11AE2B4B3BF8E6262 /* FSPBPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE45DC9FB1CBFDE0000DD71307B287 /* FSPBPointExtension.swift */; };
-		326E51DD1E7BEF1CDFA1E6CCF8B4D133 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		3F382618063FE40A205947DCBF27959C /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4903DB85F813D4BBB87EAA1040B87A5E /* SkyFloatingLabelTextField-dummy.m */; };
-		4451EC332BAAFEDE72EA27841877A7C2 /* SwipeAnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D9370D1E4105622F07AED2FE56A02A /* SwipeAnimationType.swift */; };
-		5394C4DCB14CD55B19D088F07382AE14 /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D090C8D03661C6AA2C63717CE5C217 /* SCLExtensions.swift */; };
-		5D68BCEA2A755046D8BD273530420244 /* SimpleCheckbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C5E2E27C13D8439DDC2F6F792FC7312 /* SimpleCheckbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69437A6AA2866A54AACCCEA857664F47 /* SCLAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83355BA9DD753EA7E4FC2B119F3BBC25 /* SCLAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CCE43A9C0B6AAB932CA7400616B867D /* CircleBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AED98437506C09A5C370F4E919C8BC /* CircleBar-dummy.m */; };
-		8BAA41F31F9CCBD7C5EDDEB1B1F93233 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		8E0F7DCE2DEE997FBCCEBB3313A46C6D /* FSPBTextLayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AC1DD9DCD5C60CFB8BCF1356977E08 /* FSPBTextLayerExtension.swift */; };
-		9A7EBC693FAB2DA734634AAF339BC68C /* SwipeableTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 38B8A1A2CB3D45756D3A0FF456744672 /* SwipeableTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D45AD6B7F0738B1829BED0A855C6708 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3E73E4C7DBDCDC5A436388E89D26F7 /* Checkbox.swift */; };
-		A883EC43D5E7801E0787190A461A6D54 /* Pods-QCharge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D3728F6B859EF6F7653F298ABB7E462 /* Pods-QCharge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B09FEC0B831B6F4E6D415077BF437A2A /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21224CA59D96190099909687DFE72B8 /* SkyFloatingLabelTextField.swift */; };
-		B98733C303FFBD5D956071ED6940935F /* SCLAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9F946440DBE41961308B67E155B164 /* SCLAlertView-dummy.m */; };
-		C5AFD107E32B60BB756B15C548078C5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		D054D9863A3C7D2B889EFE76624351D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		D0CF04F1CD027948C768EFCD2B665DF5 /* FlexibleSteppedProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F002456374AA620C48135FCE3CA811D8 /* FlexibleSteppedProgressBar-dummy.m */; };
-		D6560C23E0F6A5F13CE2F4C2A3774A73 /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E573ED220EF9299E0003FFDD120C4388 /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9BFE2CA36C2D933F9B093D89AA044E4 /* FlexibleSteppedProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ECE0D98FB7B18B2B3BBDF627B9F5FDD /* FlexibleSteppedProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF378D1ABACF355BD352F447B3BB210D /* CircleBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66BA28763F058347A80D515E09EFD212 /* CircleBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DFC5CA7AC8AA2E2B585171F42C939D63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		EE4CCDABB7A2692720F8B9963EB3B645 /* SwipeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5761742915FC3C6665D877C0A4BB741D /* SwipeInteractor.swift */; };
-		EE63B846EDD498D4335668FFD70F3F25 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CA717EC4E523B6F0D41A4EDF2923CB /* SkyFloatingLabelTextFieldWithIcon.swift */; };
-		EEE1EB28BCE6E52DA3B7D826959F041D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		EF171AE4747D860473D8D3435AC88402 /* FlexibleSteppedProgressBarTextLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BC8D4449C6474BDF4187B1B477D1A9 /* FlexibleSteppedProgressBarTextLocation.swift */; };
-		F7AE75D23C11A1220C5A7AEB70B06B0C /* SHCircleBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947AA5B5B91A1D00CCCAA066945C403A /* SHCircleBarController.swift */; };
-		FF7F5D61C7E342DB4EEA1FC67B7F96A4 /* SHCircleBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6491229D21E3A116F2DE2E3D70FF1F5E /* SHCircleBar.swift */; };
+		0321DD013108CB0610406A1B87D89D3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		07D8DB1F4431A2F374C4874A16B27C19 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */; };
+		0A75F7B270D2FCF996AFECBD42C8FA0A /* SwipeTransitioningProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62461882956AF094FED4C5F362F8061D /* SwipeTransitioningProtocol.swift */; };
+		0BA738D79846EA4545837450D8292F42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		0D3EA1583F7A3FA4873D16D8F5892866 /* SwipeTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821C1F3F0F226F301359A172C1D1037E /* SwipeTransitionAnimator.swift */; };
+		0E5B11DB044119F6999D82086D75FB09 /* SwipeableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC30EF0046E9225B96E5FDA0696DDA2 /* SwipeableTabBarController.swift */; };
+		10CC0DED42AC8D413BCA321D4A72C415 /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6655FF5BBA52DF69E8B6C1AE286F182 /* UITextField+fixCaretPosition.swift */; };
+		13A2E80D7F76724948578DB323F549B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */; };
+		1546AA44A344F9C29A7B5CC239C84F67 /* UIKit+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C1953CD602FFAD411BD95E683E4058 /* UIKit+Extensions.swift */; };
+		157AA416DF5D4F2E92A3623A2215F9C8 /* SwipeableTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4ED603116EDA1D1023311A884BD7FE3 /* SwipeableTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19FF562090E9B5776B5E6EA300084481 /* SwipeableTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C757C827D324B97D6932BB5E79F7CB8 /* SwipeableTabBarController-dummy.m */; };
+		2744447A1042C62F82958FCD67C7196D /* SimpleCheckbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F92E503437DB23D17B5E9D5C966F6E /* SimpleCheckbox-dummy.m */; };
+		2769598AEC9639B792C03FAA0C225A50 /* FlexibleSteppedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BACB87889D557E930A7D105BFAAA9AE /* FlexibleSteppedProgressBar.swift */; };
+		298E4F1A7F3DFD1F512EF7561C18CD20 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24B631FBCB46D08F71F3283F10BB40E /* SCLAlertView.swift */; };
+		2E9B4F0189FD79C11AE2B4B3BF8E6262 /* FSPBPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC253ED4D8513F60EE00845ABEB45E34 /* FSPBPointExtension.swift */; };
+		326E51DD1E7BEF1CDFA1E6CCF8B4D133 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		3B5E17BD0B524696E6B516B4BE23ADD1 /* Pods-QCharge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C6E8075C868DE4E822F6D450A51EEC /* Pods-QCharge-dummy.m */; };
+		3CC89CA5021A9CC37A37D919A89FF11C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		3F382618063FE40A205947DCBF27959C /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A42FA5A87BD45206F89F79F585474790 /* SkyFloatingLabelTextField-dummy.m */; };
+		4451EC332BAAFEDE72EA27841877A7C2 /* SwipeAnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2DC98C6F4FD2A902E9686A78C1E8DE /* SwipeAnimationType.swift */; };
+		46058A2013FC5D3CD04C62D71A41D66B /* Pods-QCharge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D3728F6B859EF6F7653F298ABB7E462 /* Pods-QCharge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5394C4DCB14CD55B19D088F07382AE14 /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3613FF189472AA5C5DEFA17CB63109 /* SCLExtensions.swift */; };
+		5D68BCEA2A755046D8BD273530420244 /* SimpleCheckbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD01419B0882450FB4E1264D7E9CF40F /* SimpleCheckbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69437A6AA2866A54AACCCEA857664F47 /* SCLAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C56D418734D4C3044D40D6E70DFEACB /* SCLAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AF9DD22925D9C54AF0ACF5831EC861E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */; };
+		7CCE43A9C0B6AAB932CA7400616B867D /* CircleBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A558B71D427096B04BF5304CC67C872B /* CircleBar-dummy.m */; };
+		8430A0CCAFE4200435A626C5C235A3D9 /* CircleProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D8000FAE8ED0E363EDE77E525458DA /* CircleProgressBar-dummy.m */; };
+		8BAA41F31F9CCBD7C5EDDEB1B1F93233 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		8E0F7DCE2DEE997FBCCEBB3313A46C6D /* FSPBTextLayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123644E46C56786EA051A3F891A6DE4A /* FSPBTextLayerExtension.swift */; };
+		9A7EBC693FAB2DA734634AAF339BC68C /* SwipeableTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 35722142D773AE84E9FB06807F28BB66 /* SwipeableTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D45AD6B7F0738B1829BED0A855C6708 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AA97D3032D21486206DADB4E1A487E /* Checkbox.swift */; };
+		A78D5C8DAE614ED3CD91313568C1FBD5 /* CircleProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B5960A0C7DA88A4ADEA5168B16C827 /* CircleProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC4E7BAD737F43DC5E207A262BE16380 /* CircleProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 059A0E1148D8C07F5B5033136822957C /* CircleProgressBar.m */; };
+		B09FEC0B831B6F4E6D415077BF437A2A /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FE3616D29C323AC4DEF5BC66CEA7BE /* SkyFloatingLabelTextField.swift */; };
+		B98733C303FFBD5D956071ED6940935F /* SCLAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2197D48FE663108E26AA4C06F443CA /* SCLAlertView-dummy.m */; };
+		C5AFD107E32B60BB756B15C548078C5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		D0CF04F1CD027948C768EFCD2B665DF5 /* FlexibleSteppedProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E79EA2C01D23AB06AF698568856D2B58 /* FlexibleSteppedProgressBar-dummy.m */; };
+		D6560C23E0F6A5F13CE2F4C2A3774A73 /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B21162533797AEB04559FFC86F69A629 /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9BFE2CA36C2D933F9B093D89AA044E4 /* FlexibleSteppedProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65005D60CF51F3DE0D61458D875E0C5D /* FlexibleSteppedProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA017BFB135645E081E23262508F4E08 /* CircleProgressBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BE01A56E6203DEA40525CE32DB0F1DC /* CircleProgressBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF378D1ABACF355BD352F447B3BB210D /* CircleBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C6417A2BF29535CCD0BBA4D07CA128 /* CircleBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFC5CA7AC8AA2E2B585171F42C939D63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		EE4CCDABB7A2692720F8B9963EB3B645 /* SwipeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8C069594D9A5CF153ECFD120CA3CF7 /* SwipeInteractor.swift */; };
+		EE63B846EDD498D4335668FFD70F3F25 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91174838CFB3A502E4ED3F3F152E6D24 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		EEE1EB28BCE6E52DA3B7D826959F041D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		EF171AE4747D860473D8D3435AC88402 /* FlexibleSteppedProgressBarTextLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3937761ABA62CD7098AB61D1EFE50 /* FlexibleSteppedProgressBarTextLocation.swift */; };
+		F7AE75D23C11A1220C5A7AEB70B06B0C /* SHCircleBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DC4E80E75084FD7D0094EE11FAB21 /* SHCircleBarController.swift */; };
+		FF7F5D61C7E342DB4EEA1FC67B7F96A4 /* SHCircleBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A17C5611E40EDC39754052B3126E0 /* SHCircleBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3A4F148919331794F05D6D42ADDD9FF3 /* PBXContainerItemProxy */ = {
+		33B065D0EFA360E0BC41522307D85B57 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DFBAF98039AB4BA7927B611FB65B61BC;
 			remoteInfo = SkyFloatingLabelTextField;
 		};
-		4D5F853C7B3F18A69CF93613594549B1 /* PBXContainerItemProxy */ = {
+		3A9EF416930FF89095634A1556E42DA2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F26A321F30138437FC03D69FB018CC0A;
-			remoteInfo = SimpleCheckbox;
+			remoteGlobalIDString = E9C1CF485EFB620F37EEE07E2B8CF679;
+			remoteInfo = CircleProgressBar;
 		};
-		7FF5A35162EC5E6CC7623D7885C17CD3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B7378E43393E401083784252E88810C0;
-			remoteInfo = CircleBar;
-		};
-		8B3DD62E1DD2358EA46A76BCAD992F28 /* PBXContainerItemProxy */ = {
+		560217E013D091D4218297EE1A386EA6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E0152970E5467A11DF89E7D22C63B47C;
 			remoteInfo = SCLAlertView;
 		};
-		A76B13FC99E23F94FD72D141B6049908 /* PBXContainerItemProxy */ = {
+		7C177497735AC3DBE63A3A042015DD10 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B04E8566792BB8A5B09C98FD0DDB0025;
-			remoteInfo = FlexibleSteppedProgressBar;
+			remoteGlobalIDString = B7378E43393E401083784252E88810C0;
+			remoteInfo = CircleBar;
 		};
-		B4C37920CE927386FDFCC92387F27330 /* PBXContainerItemProxy */ = {
+		86043DE4DA0F46197A67B9612661EEED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3CD2985EC5826C32DE2E7CBE62FB81ED;
 			remoteInfo = SwipeableTabBarController;
 		};
+		B4AFA5CD58572C268EB6B15E8D1174AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F26A321F30138437FC03D69FB018CC0A;
+			remoteInfo = SimpleCheckbox;
+		};
+		F76DA0F5F672E2390539E35C57D07214 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B04E8566792BB8A5B09C98FD0DDB0025;
+			remoteInfo = FlexibleSteppedProgressBar;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0422A4E29539CCA5056F94467AB2A67D /* CircleBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleBar-prefix.pch"; sourceTree = "<group>"; };
-		05EBF256A385E0BCFA456C343FB962AF /* SkyFloatingLabelTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SkyFloatingLabelTextField-Info.plist"; sourceTree = "<group>"; };
-		07D26F940D96905B9B0F831C095E3CC7 /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
-		1145D66226CB1679B93ED5490DF9CFE4 /* SCLAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SCLAlertView.modulemap; sourceTree = "<group>"; };
+		059A0E1148D8C07F5B5033136822957C /* CircleProgressBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CircleProgressBar.m; path = CircleProgressBarDemo/CircleProgressBar/CircleProgressBar.m; sourceTree = "<group>"; };
+		063DE4E10B77D439D9825ECB2475714C /* FlexibleSteppedProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexibleSteppedProgressBar-prefix.pch"; sourceTree = "<group>"; };
+		0E3075289CFC8EE039E9C3C87921CE2A /* CircleBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircleBar.debug.xcconfig; sourceTree = "<group>"; };
+		105DC4E80E75084FD7D0094EE11FAB21 /* SHCircleBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHCircleBarController.swift; path = CircleBar/Classes/SHCircleBarController.swift; sourceTree = "<group>"; };
 		114FF158AD91A9968AFFCBF01830B2E8 /* FlexibleSteppedProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlexibleSteppedProgressBar.framework; path = FlexibleSteppedProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		123644E46C56786EA051A3F891A6DE4A /* FSPBTextLayerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPBTextLayerExtension.swift; path = FlexibleSteppedProgressBar/Classes/FSPBTextLayerExtension.swift; sourceTree = "<group>"; };
 		136252984CE8DCC82712D79B07BFA7A7 /* Pods-QCharge-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QCharge-acknowledgements.plist"; sourceTree = "<group>"; };
-		17CDBD343AAFB34EBBA53FA56BE6253D /* SwipeableTabBarController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwipeableTabBarController-Info.plist"; sourceTree = "<group>"; };
-		18D9370D1E4105622F07AED2FE56A02A /* SwipeAnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAnimationType.swift; path = SwipeableTabBarController/SwipeAnimationType.swift; sourceTree = "<group>"; };
-		1CEF894BE3D6579F996D3D137965B685 /* SwipeTransitioningProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTransitioningProtocol.swift; path = SwipeableTabBarController/SwipeTransitioningProtocol.swift; sourceTree = "<group>"; };
-		25976F11F487C1017426B434E54576FF /* SimpleCheckbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleCheckbox-dummy.m"; sourceTree = "<group>"; };
-		265417FCC494117D45DC15C89FA0A959 /* SwipeableTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwipeableTabBarController.modulemap; sourceTree = "<group>"; };
-		2C106D88FAB74AB359731A11B570EC4B /* SwipeableTabBarController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeableTabBarController.debug.xcconfig; sourceTree = "<group>"; };
-		2C5E2E27C13D8439DDC2F6F792FC7312 /* SimpleCheckbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleCheckbox-umbrella.h"; sourceTree = "<group>"; };
+		152A1A377513DA88AA38DF1721BB577E /* SCLAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SCLAlertView.modulemap; sourceTree = "<group>"; };
+		1D62DA46A32BEB79F39F8805ECD52BF0 /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
+		246C1A7100C5D03794232A2DFEDE6AE2 /* FlexibleSteppedProgressBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlexibleSteppedProgressBar.release.xcconfig; sourceTree = "<group>"; };
+		2A99B85E8ED3E4E888EC02E599FE1AC2 /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
+		2BF822584BAB16C50EB02EF4D83525EE /* CircleProgressBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircleProgressBar.release.xcconfig; sourceTree = "<group>"; };
+		2D3613FF189472AA5C5DEFA17CB63109 /* SCLExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLExtensions.swift; path = SCLAlertView/SCLExtensions.swift; sourceTree = "<group>"; };
+		350E5B7A25AD25548A94C39D098F982D /* SimpleCheckbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleCheckbox-prefix.pch"; sourceTree = "<group>"; };
+		35722142D773AE84E9FB06807F28BB66 /* SwipeableTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwipeableTabBarController.h; path = SwipeableTabBarController/SwipeableTabBarController.h; sourceTree = "<group>"; };
 		35C6E8075C868DE4E822F6D450A51EEC /* Pods-QCharge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QCharge-dummy.m"; sourceTree = "<group>"; };
-		35FB24674BBD849F2640EB4A509E8FED /* SCLAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-prefix.pch"; sourceTree = "<group>"; };
-		3637258F5A343A17046486FE8186ECF0 /* SimpleCheckbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SimpleCheckbox.modulemap; sourceTree = "<group>"; };
 		36385CDA7D881956A422374741BBD508 /* Pods-QCharge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QCharge.release.xcconfig"; sourceTree = "<group>"; };
-		38B8A1A2CB3D45756D3A0FF456744672 /* SwipeableTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwipeableTabBarController.h; path = SwipeableTabBarController/SwipeableTabBarController.h; sourceTree = "<group>"; };
 		39F1A0AE8A01B577D4B8EAB8EEC1D1A8 /* SimpleCheckbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleCheckbox.framework; path = SimpleCheckbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B29AD33881B76077D9ECF507A048892 /* CircleBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircleBar.debug.xcconfig; sourceTree = "<group>"; };
-		3C86840D0CA91EEBE9527A9BAAC068D8 /* FlexibleSteppedProgressBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlexibleSteppedProgressBar.release.xcconfig; sourceTree = "<group>"; };
-		3D8E75D4D04FC6B61F582D3459F93B97 /* FlexibleSteppedProgressBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FlexibleSteppedProgressBar-Info.plist"; sourceTree = "<group>"; };
-		3E9F946440DBE41961308B67E155B164 /* SCLAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCLAlertView-dummy.m"; sourceTree = "<group>"; };
-		3ECE0D98FB7B18B2B3BBDF627B9F5FDD /* FlexibleSteppedProgressBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexibleSteppedProgressBar-umbrella.h"; sourceTree = "<group>"; };
+		3BC3937761ABA62CD7098AB61D1EFE50 /* FlexibleSteppedProgressBarTextLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlexibleSteppedProgressBarTextLocation.swift; path = FlexibleSteppedProgressBar/Classes/FlexibleSteppedProgressBarTextLocation.swift; sourceTree = "<group>"; };
+		3E8C069594D9A5CF153ECFD120CA3CF7 /* SwipeInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeInteractor.swift; path = SwipeableTabBarController/SwipeInteractor.swift; sourceTree = "<group>"; };
+		3FC30EF0046E9225B96E5FDA0696DDA2 /* SwipeableTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeableTabBarController.swift; path = SwipeableTabBarController/SwipeableTabBarController.swift; sourceTree = "<group>"; };
 		43697E92E1EF903807158F32D260C4DC /* CircleBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CircleBar.framework; path = CircleBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4903DB85F813D4BBB87EAA1040B87A5E /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
-		4C23F55058F1781E8019512995A202CF /* SwipeableTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeableTabBarController-prefix.pch"; sourceTree = "<group>"; };
-		567160DB12E72FF3BAA41D363561B524 /* FlexibleSteppedProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexibleSteppedProgressBar-prefix.pch"; sourceTree = "<group>"; };
-		5761742915FC3C6665D877C0A4BB741D /* SwipeInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeInteractor.swift; path = SwipeableTabBarController/SwipeInteractor.swift; sourceTree = "<group>"; };
-		5C5B7D8F5911639225311A917F5ACA4E /* CircleBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircleBar.release.xcconfig; sourceTree = "<group>"; };
-		5C791C77669443D1042B22C8D9EE6883 /* FlexibleSteppedProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlexibleSteppedProgressBar.modulemap; sourceTree = "<group>"; };
+		43FE3616D29C323AC4DEF5BC66CEA7BE /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		44C6417A2BF29535CCD0BBA4D07CA128 /* CircleBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleBar-umbrella.h"; sourceTree = "<group>"; };
+		456F877697F576D12F6EAA9505D11E95 /* SwipeableTabBarController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwipeableTabBarController-Info.plist"; sourceTree = "<group>"; };
+		47AA97D3032D21486206DADB4E1A487E /* Checkbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Checkbox.swift; path = checkbox/Checkbox.swift; sourceTree = "<group>"; };
+		4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4C3FDF79306A75E3C17F328B30A25C79 /* FlexibleSteppedProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlexibleSteppedProgressBar.modulemap; sourceTree = "<group>"; };
+		4ED956992AD6715E99C427C12600F00C /* CircleBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CircleBar-Info.plist"; sourceTree = "<group>"; };
+		51B5960A0C7DA88A4ADEA5168B16C827 /* CircleProgressBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleProgressBar-umbrella.h"; sourceTree = "<group>"; };
+		52C1953CD602FFAD411BD95E683E4058 /* UIKit+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Extensions.swift"; path = "SwipeableTabBarController/UIKit+Extensions.swift"; sourceTree = "<group>"; };
+		57D8000FAE8ED0E363EDE77E525458DA /* CircleProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CircleProgressBar-dummy.m"; sourceTree = "<group>"; };
+		5B4F6FD59952A65CC152863C1349775B /* CircleProgressBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CircleProgressBar-Info.plist"; sourceTree = "<group>"; };
+		5C757C827D324B97D6932BB5E79F7CB8 /* SwipeableTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeableTabBarController-dummy.m"; sourceTree = "<group>"; };
 		5D3728F6B859EF6F7653F298ABB7E462 /* Pods-QCharge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QCharge-umbrella.h"; sourceTree = "<group>"; };
 		5D7A87A1B157E252CA0A6AE1D7129943 /* Pods-QCharge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QCharge.debug.xcconfig"; sourceTree = "<group>"; };
-		63855E8C1D7F721A7B150722657890DA /* UIKit+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Extensions.swift"; path = "SwipeableTabBarController/UIKit+Extensions.swift"; sourceTree = "<group>"; };
-		6491229D21E3A116F2DE2E3D70FF1F5E /* SHCircleBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHCircleBar.swift; path = CircleBar/Classes/SHCircleBar.swift; sourceTree = "<group>"; };
-		65370B4D69FB074C9C55E012D4BCF1C1 /* SCLAlertView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCLAlertView.debug.xcconfig; sourceTree = "<group>"; };
-		6560EAF9788959007510BE007D86711B /* SCLAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLAlertView.swift; path = SCLAlertView/SCLAlertView.swift; sourceTree = "<group>"; };
+		62461882956AF094FED4C5F362F8061D /* SwipeTransitioningProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTransitioningProtocol.swift; path = SwipeableTabBarController/SwipeTransitioningProtocol.swift; sourceTree = "<group>"; };
+		65005D60CF51F3DE0D61458D875E0C5D /* FlexibleSteppedProgressBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexibleSteppedProgressBar-umbrella.h"; sourceTree = "<group>"; };
 		65E2B747A79A173B2609D8BA3802AE66 /* SwipeableTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwipeableTabBarController.framework; path = SwipeableTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		66BA28763F058347A80D515E09EFD212 /* CircleBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleBar-umbrella.h"; sourceTree = "<group>"; };
-		71AC1DD9DCD5C60CFB8BCF1356977E08 /* FSPBTextLayerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPBTextLayerExtension.swift; path = FlexibleSteppedProgressBar/Classes/FSPBTextLayerExtension.swift; sourceTree = "<group>"; };
-		83355BA9DD753EA7E4FC2B119F3BBC25 /* SCLAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-umbrella.h"; sourceTree = "<group>"; };
+		6BACB87889D557E930A7D105BFAAA9AE /* FlexibleSteppedProgressBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlexibleSteppedProgressBar.swift; path = FlexibleSteppedProgressBar/Classes/FlexibleSteppedProgressBar.swift; sourceTree = "<group>"; };
+		70E09073898B52DB6E947036596510D9 /* CircleProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleProgressBar-prefix.pch"; sourceTree = "<group>"; };
+		76BFBBAE0B6B45DB853882ABA323D88F /* SimpleCheckbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleCheckbox.release.xcconfig; sourceTree = "<group>"; };
+		7902A31B34A837DAAC6A1CCCA29B7724 /* SwipeableTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwipeableTabBarController.modulemap; sourceTree = "<group>"; };
+		7948FA343D314AE2DEBBA7CA6076F151 /* CircleProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CircleProgressBar.framework; path = CircleProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BE01A56E6203DEA40525CE32DB0F1DC /* CircleProgressBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CircleProgressBar.h; path = CircleProgressBarDemo/CircleProgressBar/CircleProgressBar.h; sourceTree = "<group>"; };
+		7D2DC98C6F4FD2A902E9686A78C1E8DE /* SwipeAnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAnimationType.swift; path = SwipeableTabBarController/SwipeAnimationType.swift; sourceTree = "<group>"; };
+		81FF32FA6A1C4EE36EEA592628AA1EB3 /* CircleProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CircleProgressBar.modulemap; sourceTree = "<group>"; };
+		821C1F3F0F226F301359A172C1D1037E /* SwipeTransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTransitionAnimator.swift; path = SwipeableTabBarController/SwipeTransitionAnimator.swift; sourceTree = "<group>"; };
 		839058838C80553023E073790DDEC659 /* Pods-QCharge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QCharge.modulemap"; sourceTree = "<group>"; };
-		8CC2BAB7F7265A34B6DCBA7562E154DE /* SwipeableTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeableTabBarController-umbrella.h"; sourceTree = "<group>"; };
-		941C510A8BEA3C4A03EE81F45A4A8CAB /* SkyFloatingLabelTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.debug.xcconfig; sourceTree = "<group>"; };
-		947AA5B5B91A1D00CCCAA066945C403A /* SHCircleBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHCircleBarController.swift; path = CircleBar/Classes/SHCircleBarController.swift; sourceTree = "<group>"; };
+		8C56D418734D4C3044D40D6E70DFEACB /* SCLAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-umbrella.h"; sourceTree = "<group>"; };
+		8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8F2197D48FE663108E26AA4C06F443CA /* SCLAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCLAlertView-dummy.m"; sourceTree = "<group>"; };
+		91174838CFB3A502E4ED3F3F152E6D24 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
 		962A4B1F73A781D3BB906D0525BD2A8A /* SCLAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SCLAlertView.framework; path = SCLAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		96B65CE0012A3E381514D560C7031A3C /* SimpleCheckbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleCheckbox-prefix.pch"; sourceTree = "<group>"; };
-		97D56993788F9B866830164A27EBE44A /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
-		9CB99D412663FDE813E423B3B91BF414 /* SimpleCheckbox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SimpleCheckbox-Info.plist"; sourceTree = "<group>"; };
+		9C27D2E88541769B33A7324B577E0E0E /* SkyFloatingLabelTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SkyFloatingLabelTextField-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A153C75C2C559C1E99E627DB3B9C784E /* SwipeTransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTransitionAnimator.swift; path = SwipeableTabBarController/SwipeTransitionAnimator.swift; sourceTree = "<group>"; };
-		A7136A5CA2C2C844A976B3D0270C4DC4 /* SwipeableTabBarController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeableTabBarController.release.xcconfig; sourceTree = "<group>"; };
-		B21224CA59D96190099909687DFE72B8 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
-		B5B9804B10CF30A6EBFEB0D25397DC68 /* SimpleCheckbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleCheckbox.release.xcconfig; sourceTree = "<group>"; };
-		B8EE9953936FD515451791D9C428B19A /* CircleBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CircleBar-Info.plist"; sourceTree = "<group>"; };
-		B948DDAABEBD9EBB83F8DB6D2A57DF57 /* SwipeableTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeableTabBarController.swift; path = SwipeableTabBarController/SwipeableTabBarController.swift; sourceTree = "<group>"; };
-		BAA91FB7BE9985CEE38004DC6FD46168 /* CircleBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CircleBar.modulemap; sourceTree = "<group>"; };
-		BBAB7A23ABD1C5042F92A80A78DEDC47 /* SwipeableTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeableTabBarController-dummy.m"; sourceTree = "<group>"; };
-		C1AED98437506C09A5C370F4E919C8BC /* CircleBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CircleBar-dummy.m"; sourceTree = "<group>"; };
-		C253B1E221961F22E6A1626AC3B42E4D /* SimpleCheckbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleCheckbox.debug.xcconfig; sourceTree = "<group>"; };
+		9EC7438561892EC7907E692B725EFE33 /* CircleProgressBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircleProgressBar.debug.xcconfig; sourceTree = "<group>"; };
+		9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A165A716F0E5DB2327704D41570A5B8F /* SCLAlertView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SCLAlertView-Info.plist"; sourceTree = "<group>"; };
+		A42FA5A87BD45206F89F79F585474790 /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
+		A5508D140B3F204E511A950C83D291E1 /* SwipeableTabBarController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeableTabBarController.release.xcconfig; sourceTree = "<group>"; };
+		A558B71D427096B04BF5304CC67C872B /* CircleBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CircleBar-dummy.m"; sourceTree = "<group>"; };
+		AEF9EF2DBFB464553289598F94FCF126 /* SCLAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-prefix.pch"; sourceTree = "<group>"; };
+		B21162533797AEB04559FFC86F69A629 /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
+		B77882FEE329B5C71F922E705FA316DC /* FlexibleSteppedProgressBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FlexibleSteppedProgressBar-Info.plist"; sourceTree = "<group>"; };
+		B85C074551D645447AEAC1B122171A22 /* SwipeableTabBarController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeableTabBarController.debug.xcconfig; sourceTree = "<group>"; };
+		B89BC99D55EF24DBB8A6DD60B1DA4525 /* CircleBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CircleBar.modulemap; sourceTree = "<group>"; };
+		BC253ED4D8513F60EE00845ABEB45E34 /* FSPBPointExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPBPointExtension.swift; path = FlexibleSteppedProgressBar/Classes/FSPBPointExtension.swift; sourceTree = "<group>"; };
+		BF6340086353E8CB07DAFF9C1B16B767 /* SkyFloatingLabelTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.release.xcconfig; sourceTree = "<group>"; };
+		C16A17C5611E40EDC39754052B3126E0 /* SHCircleBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHCircleBar.swift; path = CircleBar/Classes/SHCircleBar.swift; sourceTree = "<group>"; };
 		C2985B0AE4784256DFE469E645BBFEF5 /* Pods-QCharge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QCharge-Info.plist"; sourceTree = "<group>"; };
-		C3A0EAB650BEDCD9F61BC7CCF9DEA44B /* FlexibleSteppedProgressBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlexibleSteppedProgressBar.swift; path = FlexibleSteppedProgressBar/Classes/FlexibleSteppedProgressBar.swift; sourceTree = "<group>"; };
-		C4D090C8D03661C6AA2C63717CE5C217 /* SCLExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLExtensions.swift; path = SCLAlertView/SCLExtensions.swift; sourceTree = "<group>"; };
+		C4ED603116EDA1D1023311A884BD7FE3 /* SwipeableTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeableTabBarController-umbrella.h"; sourceTree = "<group>"; };
+		C53EFD0133A6199F86ED4110934718EB /* FlexibleSteppedProgressBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlexibleSteppedProgressBar.debug.xcconfig; sourceTree = "<group>"; };
 		C6F801B771BE2A1AB543F62AE1A687EE /* Pods-QCharge-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QCharge-frameworks.sh"; sourceTree = "<group>"; };
+		CAEC8905DBFF08C4EEC623F31F0AABF2 /* SimpleCheckbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SimpleCheckbox.modulemap; sourceTree = "<group>"; };
 		CBBA690A921902183F260639F70ACD16 /* Pods-QCharge-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QCharge-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CD01419B0882450FB4E1264D7E9CF40F /* SimpleCheckbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleCheckbox-umbrella.h"; sourceTree = "<group>"; };
+		CF55859C23983E910454D0C16E3B3F9F /* SimpleCheckbox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SimpleCheckbox-Info.plist"; sourceTree = "<group>"; };
+		D1073B62DF6CDDE33F9548C39B32A4AE /* SwipeableTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeableTabBarController-prefix.pch"; sourceTree = "<group>"; };
 		D392C11EB32EACD5EC9C8D37B51482B6 /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SkyFloatingLabelTextField.framework; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D576A9228FF8C3754BD2727A9685A066 /* SCLAlertView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SCLAlertView-Info.plist"; sourceTree = "<group>"; };
-		D60DE86138A821DE2B22FB06343B1A2E /* SCLAlertView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCLAlertView.release.xcconfig; sourceTree = "<group>"; };
-		DF23E69E7DC3AED242BBC971BE8F0314 /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
-		DF3E73E4C7DBDCDC5A436388E89D26F7 /* Checkbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Checkbox.swift; path = checkbox/Checkbox.swift; sourceTree = "<group>"; };
-		E573ED220EF9299E0003FFDD120C4388 /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
-		E7D788537CE54F1ECA9B984BD43BE4A7 /* FlexibleSteppedProgressBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlexibleSteppedProgressBar.debug.xcconfig; sourceTree = "<group>"; };
-		E9EE45DC9FB1CBFDE0000DD71307B287 /* FSPBPointExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPBPointExtension.swift; path = FlexibleSteppedProgressBar/Classes/FSPBPointExtension.swift; sourceTree = "<group>"; };
-		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F002456374AA620C48135FCE3CA811D8 /* FlexibleSteppedProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlexibleSteppedProgressBar-dummy.m"; sourceTree = "<group>"; };
-		F2BC8D4449C6474BDF4187B1B477D1A9 /* FlexibleSteppedProgressBarTextLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlexibleSteppedProgressBarTextLocation.swift; path = FlexibleSteppedProgressBar/Classes/FlexibleSteppedProgressBarTextLocation.swift; sourceTree = "<group>"; };
-		F5CA717EC4E523B6F0D41A4EDF2923CB /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
-		FE68081607E8B0C1EAD7AEAEBD2196D0 /* SkyFloatingLabelTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.release.xcconfig; sourceTree = "<group>"; };
+		DE57EA00C5100C6388C2B632BFE693D3 /* CircleBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircleBar.release.xcconfig; sourceTree = "<group>"; };
+		DFDB804067A69ABFFEE450C138569B78 /* SCLAlertView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCLAlertView.release.xcconfig; sourceTree = "<group>"; };
+		E09AA05BF5DE2E4B093E9C174429367F /* SkyFloatingLabelTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.debug.xcconfig; sourceTree = "<group>"; };
+		E3DF122C15543883788906B950CE5E69 /* SCLAlertView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCLAlertView.debug.xcconfig; sourceTree = "<group>"; };
+		E6A96EE0DAFF9133B7F9A864B1A2F9AA /* CircleBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleBar-prefix.pch"; sourceTree = "<group>"; };
+		E79EA2C01D23AB06AF698568856D2B58 /* FlexibleSteppedProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlexibleSteppedProgressBar-dummy.m"; sourceTree = "<group>"; };
+		EBAAA293F6D539F7F0BEAD9F7E009AE1 /* SimpleCheckbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleCheckbox.debug.xcconfig; sourceTree = "<group>"; };
+		F24B631FBCB46D08F71F3283F10BB40E /* SCLAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLAlertView.swift; path = SCLAlertView/SCLAlertView.swift; sourceTree = "<group>"; };
+		F3F92E503437DB23D17B5E9D5C966F6E /* SimpleCheckbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleCheckbox-dummy.m"; sourceTree = "<group>"; };
+		F6655FF5BBA52DF69E8B6C1AE286F182 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
 		FF37E0EF529063B5093F6B6928AB9867 /* Pods_QCharge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QCharge.framework; path = "Pods-QCharge.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -204,6 +229,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		263031AF6A676CC9095356B44184C7A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA738D79846EA4545837450D8292F42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4A1F33FBA1DC7D1CB48D9CB20ECC9AF0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -212,11 +245,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67171756964648A421FA1AAA54FBC028 /* Frameworks */ = {
+		B3CD20EF351C7EA5D86DA2F4C7E37D17 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D054D9863A3C7D2B889EFE76624351D1 /* Foundation.framework in Frameworks */,
+				3CC89CA5021A9CC37A37D919A89FF11C /* Foundation.framework in Frameworks */,
+				07D8DB1F4431A2F374C4874A16B27C19 /* QuartzCore.framework in Frameworks */,
+				6AF9DD22925D9C54AF0ACF5831EC861E /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,23 +274,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CDB2AA98B7250D00CEB9B0B51241FB0 /* SCLAlertView */ = {
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6560EAF9788959007510BE007D86711B /* SCLAlertView.swift */,
-				C4D090C8D03661C6AA2C63717CE5C217 /* SCLExtensions.swift */,
-				6D1E74F6D727D30F8AB75035A142B2B1 /* Support Files */,
+				F0A778C0229E9BF1FD97896B93F3272B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0CC0AFCE6CE10D62BC27EFD2D8E32E91 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				152A1A377513DA88AA38DF1721BB577E /* SCLAlertView.modulemap */,
+				8F2197D48FE663108E26AA4C06F443CA /* SCLAlertView-dummy.m */,
+				A165A716F0E5DB2327704D41570A5B8F /* SCLAlertView-Info.plist */,
+				AEF9EF2DBFB464553289598F94FCF126 /* SCLAlertView-prefix.pch */,
+				8C56D418734D4C3044D40D6E70DFEACB /* SCLAlertView-umbrella.h */,
+				E3DF122C15543883788906B950CE5E69 /* SCLAlertView.debug.xcconfig */,
+				DFDB804067A69ABFFEE450C138569B78 /* SCLAlertView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SCLAlertView";
+			sourceTree = "<group>";
+		};
+		12F574EC6AD7E25F31BC87AE7F95B4FB /* CircleProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				7BE01A56E6203DEA40525CE32DB0F1DC /* CircleProgressBar.h */,
+				059A0E1148D8C07F5B5033136822957C /* CircleProgressBar.m */,
+				953F2023B0FC72FBF3B08968C0507B14 /* Support Files */,
+			);
+			name = CircleProgressBar;
+			path = CircleProgressBar;
+			sourceTree = "<group>";
+		};
+		1CB2CD714979092B67E3602B581AA0FC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAEC8905DBFF08C4EEC623F31F0AABF2 /* SimpleCheckbox.modulemap */,
+				F3F92E503437DB23D17B5E9D5C966F6E /* SimpleCheckbox-dummy.m */,
+				CF55859C23983E910454D0C16E3B3F9F /* SimpleCheckbox-Info.plist */,
+				350E5B7A25AD25548A94C39D098F982D /* SimpleCheckbox-prefix.pch */,
+				CD01419B0882450FB4E1264D7E9CF40F /* SimpleCheckbox-umbrella.h */,
+				EBAAA293F6D539F7F0BEAD9F7E009AE1 /* SimpleCheckbox.debug.xcconfig */,
+				76BFBBAE0B6B45DB853882ABA323D88F /* SimpleCheckbox.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SimpleCheckbox";
+			sourceTree = "<group>";
+		};
+		249A867C85DB0E63C68FC14344B73734 /* SimpleCheckbox */ = {
+			isa = PBXGroup;
+			children = (
+				47AA97D3032D21486206DADB4E1A487E /* Checkbox.swift */,
+				1CB2CD714979092B67E3602B581AA0FC /* Support Files */,
+			);
+			name = SimpleCheckbox;
+			path = SimpleCheckbox;
+			sourceTree = "<group>";
+		};
+		288A010F80E5534961DB6765BB3A0EA3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C3FDF79306A75E3C17F328B30A25C79 /* FlexibleSteppedProgressBar.modulemap */,
+				E79EA2C01D23AB06AF698568856D2B58 /* FlexibleSteppedProgressBar-dummy.m */,
+				B77882FEE329B5C71F922E705FA316DC /* FlexibleSteppedProgressBar-Info.plist */,
+				063DE4E10B77D439D9825ECB2475714C /* FlexibleSteppedProgressBar-prefix.pch */,
+				65005D60CF51F3DE0D61458D875E0C5D /* FlexibleSteppedProgressBar-umbrella.h */,
+				C53EFD0133A6199F86ED4110934718EB /* FlexibleSteppedProgressBar.debug.xcconfig */,
+				246C1A7100C5D03794232A2DFEDE6AE2 /* FlexibleSteppedProgressBar.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FlexibleSteppedProgressBar";
+			sourceTree = "<group>";
+		};
+		2E764287BA5544055906F8EC552C6FF6 /* SCLAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				F24B631FBCB46D08F71F3283F10BB40E /* SCLAlertView.swift */,
+				2D3613FF189472AA5C5DEFA17CB63109 /* SCLExtensions.swift */,
+				0CC0AFCE6CE10D62BC27EFD2D8E32E91 /* Support Files */,
 			);
 			name = SCLAlertView;
 			path = SCLAlertView;
-			sourceTree = "<group>";
-		};
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		388FFE9EC002F3942CC0E5DE86C06F14 /* Targets Support Files */ = {
@@ -266,136 +367,43 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		48A5C76902AACFB5CB94B37191438EB5 /* Support Files */ = {
+		5A022398C9E5E23B301115ABE8D83B15 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				265417FCC494117D45DC15C89FA0A959 /* SwipeableTabBarController.modulemap */,
-				BBAB7A23ABD1C5042F92A80A78DEDC47 /* SwipeableTabBarController-dummy.m */,
-				17CDBD343AAFB34EBBA53FA56BE6253D /* SwipeableTabBarController-Info.plist */,
-				4C23F55058F1781E8019512995A202CF /* SwipeableTabBarController-prefix.pch */,
-				8CC2BAB7F7265A34B6DCBA7562E154DE /* SwipeableTabBarController-umbrella.h */,
-				2C106D88FAB74AB359731A11B570EC4B /* SwipeableTabBarController.debug.xcconfig */,
-				A7136A5CA2C2C844A976B3D0270C4DC4 /* SwipeableTabBarController.release.xcconfig */,
+				1D62DA46A32BEB79F39F8805ECD52BF0 /* SkyFloatingLabelTextField.modulemap */,
+				A42FA5A87BD45206F89F79F585474790 /* SkyFloatingLabelTextField-dummy.m */,
+				9C27D2E88541769B33A7324B577E0E0E /* SkyFloatingLabelTextField-Info.plist */,
+				2A99B85E8ED3E4E888EC02E599FE1AC2 /* SkyFloatingLabelTextField-prefix.pch */,
+				B21162533797AEB04559FFC86F69A629 /* SkyFloatingLabelTextField-umbrella.h */,
+				E09AA05BF5DE2E4B093E9C174429367F /* SkyFloatingLabelTextField.debug.xcconfig */,
+				BF6340086353E8CB07DAFF9C1B16B767 /* SkyFloatingLabelTextField.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SwipeableTabBarController";
+			path = "../Target Support Files/SkyFloatingLabelTextField";
 			sourceTree = "<group>";
 		};
-		51933A011BE777A2477157216184E5AC /* Support Files */ = {
+		7B78E25E1338792EE13CC7E2E6B8A43B /* CircleBar */ = {
 			isa = PBXGroup;
 			children = (
-				3637258F5A343A17046486FE8186ECF0 /* SimpleCheckbox.modulemap */,
-				25976F11F487C1017426B434E54576FF /* SimpleCheckbox-dummy.m */,
-				9CB99D412663FDE813E423B3B91BF414 /* SimpleCheckbox-Info.plist */,
-				96B65CE0012A3E381514D560C7031A3C /* SimpleCheckbox-prefix.pch */,
-				2C5E2E27C13D8439DDC2F6F792FC7312 /* SimpleCheckbox-umbrella.h */,
-				C253B1E221961F22E6A1626AC3B42E4D /* SimpleCheckbox.debug.xcconfig */,
-				B5B9804B10CF30A6EBFEB0D25397DC68 /* SimpleCheckbox.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SimpleCheckbox";
-			sourceTree = "<group>";
-		};
-		54CD8C9B631A316F3358D9055B83C640 /* SimpleCheckbox */ = {
-			isa = PBXGroup;
-			children = (
-				DF3E73E4C7DBDCDC5A436388E89D26F7 /* Checkbox.swift */,
-				51933A011BE777A2477157216184E5AC /* Support Files */,
-			);
-			name = SimpleCheckbox;
-			path = SimpleCheckbox;
-			sourceTree = "<group>";
-		};
-		55B7EAFD97B9D43290C7AAB9E17376C9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BAA91FB7BE9985CEE38004DC6FD46168 /* CircleBar.modulemap */,
-				C1AED98437506C09A5C370F4E919C8BC /* CircleBar-dummy.m */,
-				B8EE9953936FD515451791D9C428B19A /* CircleBar-Info.plist */,
-				0422A4E29539CCA5056F94467AB2A67D /* CircleBar-prefix.pch */,
-				66BA28763F058347A80D515E09EFD212 /* CircleBar-umbrella.h */,
-				3B29AD33881B76077D9ECF507A048892 /* CircleBar.debug.xcconfig */,
-				5C5B7D8F5911639225311A917F5ACA4E /* CircleBar.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/CircleBar";
-			sourceTree = "<group>";
-		};
-		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
-				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		5A12C92AE8F365F1570B16CA65FF3D64 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5C791C77669443D1042B22C8D9EE6883 /* FlexibleSteppedProgressBar.modulemap */,
-				F002456374AA620C48135FCE3CA811D8 /* FlexibleSteppedProgressBar-dummy.m */,
-				3D8E75D4D04FC6B61F582D3459F93B97 /* FlexibleSteppedProgressBar-Info.plist */,
-				567160DB12E72FF3BAA41D363561B524 /* FlexibleSteppedProgressBar-prefix.pch */,
-				3ECE0D98FB7B18B2B3BBDF627B9F5FDD /* FlexibleSteppedProgressBar-umbrella.h */,
-				E7D788537CE54F1ECA9B984BD43BE4A7 /* FlexibleSteppedProgressBar.debug.xcconfig */,
-				3C86840D0CA91EEBE9527A9BAAC068D8 /* FlexibleSteppedProgressBar.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FlexibleSteppedProgressBar";
-			sourceTree = "<group>";
-		};
-		63FC99D0B3C67C2D3515E252B0242926 /* CircleBar */ = {
-			isa = PBXGroup;
-			children = (
-				6491229D21E3A116F2DE2E3D70FF1F5E /* SHCircleBar.swift */,
-				947AA5B5B91A1D00CCCAA066945C403A /* SHCircleBarController.swift */,
-				55B7EAFD97B9D43290C7AAB9E17376C9 /* Support Files */,
+				C16A17C5611E40EDC39754052B3126E0 /* SHCircleBar.swift */,
+				105DC4E80E75084FD7D0094EE11FAB21 /* SHCircleBarController.swift */,
+				D86C8F0E4F45B7D90C01122BA0F6956D /* Support Files */,
 			);
 			name = CircleBar;
 			path = CircleBar;
 			sourceTree = "<group>";
 		};
-		6D1E74F6D727D30F8AB75035A142B2B1 /* Support Files */ = {
+		81C3CB35F24A3385C6FECE60F9A5B313 /* FlexibleSteppedProgressBar */ = {
 			isa = PBXGroup;
 			children = (
-				1145D66226CB1679B93ED5490DF9CFE4 /* SCLAlertView.modulemap */,
-				3E9F946440DBE41961308B67E155B164 /* SCLAlertView-dummy.m */,
-				D576A9228FF8C3754BD2727A9685A066 /* SCLAlertView-Info.plist */,
-				35FB24674BBD849F2640EB4A509E8FED /* SCLAlertView-prefix.pch */,
-				83355BA9DD753EA7E4FC2B119F3BBC25 /* SCLAlertView-umbrella.h */,
-				65370B4D69FB074C9C55E012D4BCF1C1 /* SCLAlertView.debug.xcconfig */,
-				D60DE86138A821DE2B22FB06343B1A2E /* SCLAlertView.release.xcconfig */,
+				6BACB87889D557E930A7D105BFAAA9AE /* FlexibleSteppedProgressBar.swift */,
+				3BC3937761ABA62CD7098AB61D1EFE50 /* FlexibleSteppedProgressBarTextLocation.swift */,
+				BC253ED4D8513F60EE00845ABEB45E34 /* FSPBPointExtension.swift */,
+				123644E46C56786EA051A3F891A6DE4A /* FSPBTextLayerExtension.swift */,
+				288A010F80E5534961DB6765BB3A0EA3 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SCLAlertView";
-			sourceTree = "<group>";
-		};
-		888AF73873C844EDB1790CC51CC18CBE /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				63FC99D0B3C67C2D3515E252B0242926 /* CircleBar */,
-				96EF024C17B014008904BD97265EADF6 /* FlexibleSteppedProgressBar */,
-				0CDB2AA98B7250D00CEB9B0B51241FB0 /* SCLAlertView */,
-				54CD8C9B631A316F3358D9055B83C640 /* SimpleCheckbox */,
-				DD0C7844F3BF57131EE17BFFEF599D90 /* SkyFloatingLabelTextField */,
-				9BC294BC7EA19E8DB54965E254EFB6E3 /* SwipeableTabBarController */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		89E88AF974810CA7AAADE397FF5FF7C3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				43697E92E1EF903807158F32D260C4DC /* CircleBar.framework */,
-				114FF158AD91A9968AFFCBF01830B2E8 /* FlexibleSteppedProgressBar.framework */,
-				FF37E0EF529063B5093F6B6928AB9867 /* Pods_QCharge.framework */,
-				962A4B1F73A781D3BB906D0525BD2A8A /* SCLAlertView.framework */,
-				39F1A0AE8A01B577D4B8EAB8EEC1D1A8 /* SimpleCheckbox.framework */,
-				D392C11EB32EACD5EC9C8D37B51482B6 /* SkyFloatingLabelTextField.framework */,
-				65E2B747A79A173B2609D8BA3802AE66 /* SwipeableTabBarController.framework */,
-			);
-			name = Products;
+			name = FlexibleSteppedProgressBar;
+			path = FlexibleSteppedProgressBar;
 			sourceTree = "<group>";
 		};
 		8BCEE0E4F1BA282536F675F21313E8DF /* Pods-QCharge */ = {
@@ -415,71 +423,127 @@
 			path = "Target Support Files/Pods-QCharge";
 			sourceTree = "<group>";
 		};
-		96EF024C17B014008904BD97265EADF6 /* FlexibleSteppedProgressBar */ = {
+		953F2023B0FC72FBF3B08968C0507B14 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C3A0EAB650BEDCD9F61BC7CCF9DEA44B /* FlexibleSteppedProgressBar.swift */,
-				F2BC8D4449C6474BDF4187B1B477D1A9 /* FlexibleSteppedProgressBarTextLocation.swift */,
-				E9EE45DC9FB1CBFDE0000DD71307B287 /* FSPBPointExtension.swift */,
-				71AC1DD9DCD5C60CFB8BCF1356977E08 /* FSPBTextLayerExtension.swift */,
-				5A12C92AE8F365F1570B16CA65FF3D64 /* Support Files */,
+				81FF32FA6A1C4EE36EEA592628AA1EB3 /* CircleProgressBar.modulemap */,
+				57D8000FAE8ED0E363EDE77E525458DA /* CircleProgressBar-dummy.m */,
+				5B4F6FD59952A65CC152863C1349775B /* CircleProgressBar-Info.plist */,
+				70E09073898B52DB6E947036596510D9 /* CircleProgressBar-prefix.pch */,
+				51B5960A0C7DA88A4ADEA5168B16C827 /* CircleProgressBar-umbrella.h */,
+				9EC7438561892EC7907E692B725EFE33 /* CircleProgressBar.debug.xcconfig */,
+				2BF822584BAB16C50EB02EF4D83525EE /* CircleProgressBar.release.xcconfig */,
 			);
-			name = FlexibleSteppedProgressBar;
-			path = FlexibleSteppedProgressBar;
+			name = "Support Files";
+			path = "../Target Support Files/CircleProgressBar";
 			sourceTree = "<group>";
 		};
-		9BC294BC7EA19E8DB54965E254EFB6E3 /* SwipeableTabBarController */ = {
+		96DCD46845F1BBFFD0872ADA1808931D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				38B8A1A2CB3D45756D3A0FF456744672 /* SwipeableTabBarController.h */,
-				B948DDAABEBD9EBB83F8DB6D2A57DF57 /* SwipeableTabBarController.swift */,
-				18D9370D1E4105622F07AED2FE56A02A /* SwipeAnimationType.swift */,
-				5761742915FC3C6665D877C0A4BB741D /* SwipeInteractor.swift */,
-				A153C75C2C559C1E99E627DB3B9C784E /* SwipeTransitionAnimator.swift */,
-				1CEF894BE3D6579F996D3D137965B685 /* SwipeTransitioningProtocol.swift */,
-				63855E8C1D7F721A7B150722657890DA /* UIKit+Extensions.swift */,
-				48A5C76902AACFB5CB94B37191438EB5 /* Support Files */,
+				7B78E25E1338792EE13CC7E2E6B8A43B /* CircleBar */,
+				12F574EC6AD7E25F31BC87AE7F95B4FB /* CircleProgressBar */,
+				81C3CB35F24A3385C6FECE60F9A5B313 /* FlexibleSteppedProgressBar */,
+				2E764287BA5544055906F8EC552C6FF6 /* SCLAlertView */,
+				249A867C85DB0E63C68FC14344B73734 /* SimpleCheckbox */,
+				B351E60D8E62D50757881D6F6CB3E1CD /* SkyFloatingLabelTextField */,
+				EC59554F75AD4E3C4DF61C4748C6153D /* SwipeableTabBarController */,
 			);
-			name = SwipeableTabBarController;
-			path = SwipeableTabBarController;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D82AACA4F64127996BE452271F40A3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43697E92E1EF903807158F32D260C4DC /* CircleBar.framework */,
+				7948FA343D314AE2DEBBA7CA6076F151 /* CircleProgressBar.framework */,
+				114FF158AD91A9968AFFCBF01830B2E8 /* FlexibleSteppedProgressBar.framework */,
+				FF37E0EF529063B5093F6B6928AB9867 /* Pods_QCharge.framework */,
+				962A4B1F73A781D3BB906D0525BD2A8A /* SCLAlertView.framework */,
+				39F1A0AE8A01B577D4B8EAB8EEC1D1A8 /* SimpleCheckbox.framework */,
+				D392C11EB32EACD5EC9C8D37B51482B6 /* SkyFloatingLabelTextField.framework */,
+				65E2B747A79A173B2609D8BA3802AE66 /* SwipeableTabBarController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B351E60D8E62D50757881D6F6CB3E1CD /* SkyFloatingLabelTextField */ = {
+			isa = PBXGroup;
+			children = (
+				43FE3616D29C323AC4DEF5BC66CEA7BE /* SkyFloatingLabelTextField.swift */,
+				91174838CFB3A502E4ED3F3F152E6D24 /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				F6655FF5BBA52DF69E8B6C1AE286F182 /* UITextField+fixCaretPosition.swift */,
+				5A022398C9E5E23B301115ABE8D83B15 /* Support Files */,
+			);
+			name = SkyFloatingLabelTextField;
+			path = SkyFloatingLabelTextField;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				888AF73873C844EDB1790CC51CC18CBE /* Pods */,
-				89E88AF974810CA7AAADE397FF5FF7C3 /* Products */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				96DCD46845F1BBFFD0872ADA1808931D /* Pods */,
+				9D82AACA4F64127996BE452271F40A3C /* Products */,
 				388FFE9EC002F3942CC0E5DE86C06F14 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		DD0C7844F3BF57131EE17BFFEF599D90 /* SkyFloatingLabelTextField */ = {
+		D86C8F0E4F45B7D90C01122BA0F6956D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B21224CA59D96190099909687DFE72B8 /* SkyFloatingLabelTextField.swift */,
-				F5CA717EC4E523B6F0D41A4EDF2923CB /* SkyFloatingLabelTextFieldWithIcon.swift */,
-				97D56993788F9B866830164A27EBE44A /* UITextField+fixCaretPosition.swift */,
-				EC4AF48125B764B27AAE352DAE2509AC /* Support Files */,
-			);
-			name = SkyFloatingLabelTextField;
-			path = SkyFloatingLabelTextField;
-			sourceTree = "<group>";
-		};
-		EC4AF48125B764B27AAE352DAE2509AC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DF23E69E7DC3AED242BBC971BE8F0314 /* SkyFloatingLabelTextField.modulemap */,
-				4903DB85F813D4BBB87EAA1040B87A5E /* SkyFloatingLabelTextField-dummy.m */,
-				05EBF256A385E0BCFA456C343FB962AF /* SkyFloatingLabelTextField-Info.plist */,
-				07D26F940D96905B9B0F831C095E3CC7 /* SkyFloatingLabelTextField-prefix.pch */,
-				E573ED220EF9299E0003FFDD120C4388 /* SkyFloatingLabelTextField-umbrella.h */,
-				941C510A8BEA3C4A03EE81F45A4A8CAB /* SkyFloatingLabelTextField.debug.xcconfig */,
-				FE68081607E8B0C1EAD7AEAEBD2196D0 /* SkyFloatingLabelTextField.release.xcconfig */,
+				B89BC99D55EF24DBB8A6DD60B1DA4525 /* CircleBar.modulemap */,
+				A558B71D427096B04BF5304CC67C872B /* CircleBar-dummy.m */,
+				4ED956992AD6715E99C427C12600F00C /* CircleBar-Info.plist */,
+				E6A96EE0DAFF9133B7F9A864B1A2F9AA /* CircleBar-prefix.pch */,
+				44C6417A2BF29535CCD0BBA4D07CA128 /* CircleBar-umbrella.h */,
+				0E3075289CFC8EE039E9C3C87921CE2A /* CircleBar.debug.xcconfig */,
+				DE57EA00C5100C6388C2B632BFE693D3 /* CircleBar.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SkyFloatingLabelTextField";
+			path = "../Target Support Files/CircleBar";
+			sourceTree = "<group>";
+		};
+		D8D0F55232072504272D5E945CF2DD17 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7902A31B34A837DAAC6A1CCCA29B7724 /* SwipeableTabBarController.modulemap */,
+				5C757C827D324B97D6932BB5E79F7CB8 /* SwipeableTabBarController-dummy.m */,
+				456F877697F576D12F6EAA9505D11E95 /* SwipeableTabBarController-Info.plist */,
+				D1073B62DF6CDDE33F9548C39B32A4AE /* SwipeableTabBarController-prefix.pch */,
+				C4ED603116EDA1D1023311A884BD7FE3 /* SwipeableTabBarController-umbrella.h */,
+				B85C074551D645447AEAC1B122171A22 /* SwipeableTabBarController.debug.xcconfig */,
+				A5508D140B3F204E511A950C83D291E1 /* SwipeableTabBarController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwipeableTabBarController";
+			sourceTree = "<group>";
+		};
+		EC59554F75AD4E3C4DF61C4748C6153D /* SwipeableTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				35722142D773AE84E9FB06807F28BB66 /* SwipeableTabBarController.h */,
+				3FC30EF0046E9225B96E5FDA0696DDA2 /* SwipeableTabBarController.swift */,
+				7D2DC98C6F4FD2A902E9686A78C1E8DE /* SwipeAnimationType.swift */,
+				3E8C069594D9A5CF153ECFD120CA3CF7 /* SwipeInteractor.swift */,
+				821C1F3F0F226F301359A172C1D1037E /* SwipeTransitionAnimator.swift */,
+				62461882956AF094FED4C5F362F8061D /* SwipeTransitioningProtocol.swift */,
+				52C1953CD602FFAD411BD95E683E4058 /* UIKit+Extensions.swift */,
+				D8D0F55232072504272D5E945CF2DD17 /* Support Files */,
+			);
+			name = SwipeableTabBarController;
+			path = SwipeableTabBarController;
+			sourceTree = "<group>";
+		};
+		F0A778C0229E9BF1FD97896B93F3272B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */,
+				9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */,
+				8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -509,11 +573,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76627C49536D4ECA4572B5F19DB6E5C9 /* Headers */ = {
+		350CFEB530CDECCDE8EF62AAA6CEE467 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A883EC43D5E7801E0787190A461A6D54 /* Pods-QCharge-umbrella.h in Headers */,
+				A78D5C8DAE614ED3CD91313568C1FBD5 /* CircleProgressBar-umbrella.h in Headers */,
+				DA017BFB135645E081E23262508F4E08 /* CircleProgressBar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +588,14 @@
 			files = (
 				157AA416DF5D4F2E92A3623A2215F9C8 /* SwipeableTabBarController-umbrella.h in Headers */,
 				9A7EBC693FAB2DA734634AAF339BC68C /* SwipeableTabBarController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B362B71728FABE060947088B58149B4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46058A2013FC5D3CD04C62D71A41D66B /* Pods-QCharge-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,22 +638,23 @@
 		};
 		5DB9437EC03556A9C175C7020CEFEFCA /* Pods-QCharge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E79023914E55AC064F078B0A7F7F7A1 /* Build configuration list for PBXNativeTarget "Pods-QCharge" */;
+			buildConfigurationList = CA7D85D47F386F7A63B4C15211452E0D /* Build configuration list for PBXNativeTarget "Pods-QCharge" */;
 			buildPhases = (
-				76627C49536D4ECA4572B5F19DB6E5C9 /* Headers */,
-				52CD508AC707C33BD932229387455F8D /* Sources */,
-				67171756964648A421FA1AAA54FBC028 /* Frameworks */,
-				D209F4C491E4D2E2C519DFAC5F2E66EA /* Resources */,
+				B362B71728FABE060947088B58149B4B /* Headers */,
+				A581F9B90FC8622BEBC4A0E810FEDE8E /* Sources */,
+				263031AF6A676CC9095356B44184C7A5 /* Frameworks */,
+				CA4CBDB5A2C9A2B62A63A87836FF6597 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FD231D8721555E50DBDDA714BDA3B340 /* PBXTargetDependency */,
-				01624B5DAC4DBED7B5D08060DA9B7E1A /* PBXTargetDependency */,
-				434FD54A7F67C30B469BC916707203EA /* PBXTargetDependency */,
-				1C999F5AA7C931BE7605959762087EB7 /* PBXTargetDependency */,
-				E51D722B3A11028EA304DA98368AF6FA /* PBXTargetDependency */,
-				3DBCEB88D5F993E6F5DF0B9080F0198E /* PBXTargetDependency */,
+				A44AAA3370CA002B9C7E3A567DFB98D6 /* PBXTargetDependency */,
+				C7BB4FE97CF29A1924E46BACDF0E8458 /* PBXTargetDependency */,
+				463065686BFAA831D581DB089CA84AE0 /* PBXTargetDependency */,
+				4DDEFC3E7F405B22BD865CE173DCDA8B /* PBXTargetDependency */,
+				9299628AD45476E06ED5D2E9C0D741FB /* PBXTargetDependency */,
+				2EE452103429B15E89FF7F6124E4CC15 /* PBXTargetDependency */,
+				16BAEDC4AF11C941BED58E176BBA15BA /* PBXTargetDependency */,
 			);
 			name = "Pods-QCharge";
 			productName = "Pods-QCharge";
@@ -659,6 +733,24 @@
 			productReference = 962A4B1F73A781D3BB906D0525BD2A8A /* SCLAlertView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		E9C1CF485EFB620F37EEE07E2B8CF679 /* CircleProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C95DB475EFC16EC6FC1F87E2E5689C /* Build configuration list for PBXNativeTarget "CircleProgressBar" */;
+			buildPhases = (
+				350CFEB530CDECCDE8EF62AAA6CEE467 /* Headers */,
+				39F3B5C07709260D7E4A68E06B2B0D2B /* Sources */,
+				B3CD20EF351C7EA5D86DA2F4C7E37D17 /* Frameworks */,
+				CC1E51AACE5EF11A3BCA2C195C3E646F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleProgressBar;
+			productName = CircleProgressBar;
+			productReference = 7948FA343D314AE2DEBBA7CA6076F151 /* CircleProgressBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		F26A321F30138437FC03D69FB018CC0A /* SimpleCheckbox */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 841A0080888A622A69AD866366D95D96 /* Build configuration list for PBXNativeTarget "SimpleCheckbox" */;
@@ -695,11 +787,12 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 89E88AF974810CA7AAADE397FF5FF7C3 /* Products */;
+			productRefGroup = 9D82AACA4F64127996BE452271F40A3C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				B7378E43393E401083784252E88810C0 /* CircleBar */,
+				E9C1CF485EFB620F37EEE07E2B8CF679 /* CircleProgressBar */,
 				B04E8566792BB8A5B09C98FD0DDB0025 /* FlexibleSteppedProgressBar */,
 				5DB9437EC03556A9C175C7020CEFEFCA /* Pods-QCharge */,
 				E0152970E5467A11DF89E7D22C63B47C /* SCLAlertView */,
@@ -746,7 +839,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D209F4C491E4D2E2C519DFAC5F2E66EA /* Resources */ = {
+		CA4CBDB5A2C9A2B62A63A87836FF6597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1E51AACE5EF11A3BCA2C195C3E646F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -773,11 +873,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52CD508AC707C33BD932229387455F8D /* Sources */ = {
+		39F3B5C07709260D7E4A68E06B2B0D2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				017DA6C233AB4F008271427C8891FD3F /* Pods-QCharge-dummy.m in Sources */,
+				8430A0CCAFE4200435A626C5C235A3D9 /* CircleProgressBar-dummy.m in Sources */,
+				AC4E7BAD737F43DC5E207A262BE16380 /* CircleProgressBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -816,6 +917,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A581F9B90FC8622BEBC4A0E810FEDE8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5E17BD0B524696E6B516B4BE23ADD1 /* Pods-QCharge-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C62043287224DE5DD6688B165F41EA2E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -840,48 +949,54 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		01624B5DAC4DBED7B5D08060DA9B7E1A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FlexibleSteppedProgressBar;
-			target = B04E8566792BB8A5B09C98FD0DDB0025 /* FlexibleSteppedProgressBar */;
-			targetProxy = A76B13FC99E23F94FD72D141B6049908 /* PBXContainerItemProxy */;
-		};
-		1C999F5AA7C931BE7605959762087EB7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SimpleCheckbox;
-			target = F26A321F30138437FC03D69FB018CC0A /* SimpleCheckbox */;
-			targetProxy = 4D5F853C7B3F18A69CF93613594549B1 /* PBXContainerItemProxy */;
-		};
-		3DBCEB88D5F993E6F5DF0B9080F0198E /* PBXTargetDependency */ = {
+		16BAEDC4AF11C941BED58E176BBA15BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwipeableTabBarController;
 			target = 3CD2985EC5826C32DE2E7CBE62FB81ED /* SwipeableTabBarController */;
-			targetProxy = B4C37920CE927386FDFCC92387F27330 /* PBXContainerItemProxy */;
+			targetProxy = 86043DE4DA0F46197A67B9612661EEED /* PBXContainerItemProxy */;
 		};
-		434FD54A7F67C30B469BC916707203EA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SCLAlertView;
-			target = E0152970E5467A11DF89E7D22C63B47C /* SCLAlertView */;
-			targetProxy = 8B3DD62E1DD2358EA46A76BCAD992F28 /* PBXContainerItemProxy */;
-		};
-		E51D722B3A11028EA304DA98368AF6FA /* PBXTargetDependency */ = {
+		2EE452103429B15E89FF7F6124E4CC15 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SkyFloatingLabelTextField;
 			target = DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */;
-			targetProxy = 3A4F148919331794F05D6D42ADDD9FF3 /* PBXContainerItemProxy */;
+			targetProxy = 33B065D0EFA360E0BC41522307D85B57 /* PBXContainerItemProxy */;
 		};
-		FD231D8721555E50DBDDA714BDA3B340 /* PBXTargetDependency */ = {
+		463065686BFAA831D581DB089CA84AE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlexibleSteppedProgressBar;
+			target = B04E8566792BB8A5B09C98FD0DDB0025 /* FlexibleSteppedProgressBar */;
+			targetProxy = F76DA0F5F672E2390539E35C57D07214 /* PBXContainerItemProxy */;
+		};
+		4DDEFC3E7F405B22BD865CE173DCDA8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SCLAlertView;
+			target = E0152970E5467A11DF89E7D22C63B47C /* SCLAlertView */;
+			targetProxy = 560217E013D091D4218297EE1A386EA6 /* PBXContainerItemProxy */;
+		};
+		9299628AD45476E06ED5D2E9C0D741FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimpleCheckbox;
+			target = F26A321F30138437FC03D69FB018CC0A /* SimpleCheckbox */;
+			targetProxy = B4AFA5CD58572C268EB6B15E8D1174AF /* PBXContainerItemProxy */;
+		};
+		A44AAA3370CA002B9C7E3A567DFB98D6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CircleBar;
 			target = B7378E43393E401083784252E88810C0 /* CircleBar */;
-			targetProxy = 7FF5A35162EC5E6CC7623D7885C17CD3 /* PBXContainerItemProxy */;
+			targetProxy = 7C177497735AC3DBE63A3A042015DD10 /* PBXContainerItemProxy */;
+		};
+		C7BB4FE97CF29A1924E46BACDF0E8458 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CircleProgressBar;
+			target = E9C1CF485EFB620F37EEE07E2B8CF679 /* CircleProgressBar */;
+			targetProxy = 3A9EF416930FF89095634A1556E42DA2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		15869E49412CF10188463CAD7AB6A094 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5B9804B10CF30A6EBFEB0D25397DC68 /* SimpleCheckbox.release.xcconfig */;
+			baseConfigurationReference = 76BFBBAE0B6B45DB853882ABA323D88F /* SimpleCheckbox.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -915,7 +1030,218 @@
 			};
 			name = Release;
 		};
-		15FE1C6FDD29FBCD777B0F13141D5879 /* Release */ = {
+		1B8B7CF2DB6F0B76B6D7DE8C7BB82D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E09AA05BF5DE2E4B093E9C174429367F /* SkyFloatingLabelTextField.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1C8152F189633CCBB24F69B99302D43C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BF822584BAB16C50EB02EF4D83525EE /* CircleProgressBar.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CircleProgressBar/CircleProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CircleProgressBar/CircleProgressBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CircleProgressBar/CircleProgressBar.modulemap";
+				PRODUCT_MODULE_NAME = CircleProgressBar;
+				PRODUCT_NAME = CircleProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2677AC0A8CF3CAA10603C631524E2614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5508D140B3F204E511A950C83D291E1 /* SwipeableTabBarController.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = SwipeableTabBarController;
+				PRODUCT_NAME = SwipeableTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		36728A1F8DEE0080AA70A482471B31B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D7A87A1B157E252CA0A6AE1D7129943 /* Pods-QCharge.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QCharge/Pods-QCharge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QCharge/Pods-QCharge.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59A6568057C82FEE1BDB252AB00D0A00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EC7438561892EC7907E692B725EFE33 /* CircleProgressBar.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CircleProgressBar/CircleProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CircleProgressBar/CircleProgressBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CircleProgressBar/CircleProgressBar.modulemap";
+				PRODUCT_MODULE_NAME = CircleProgressBar;
+				PRODUCT_NAME = CircleProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		612F2A7AD8EEE43229D101D768A31AEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFDB804067A69ABFFEE450C138569B78 /* SCLAlertView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCLAlertView/SCLAlertView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
+				PRODUCT_MODULE_NAME = SCLAlertView;
+				PRODUCT_NAME = SCLAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63C1E2F0B85ACA621B7B9631824A8EAD /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 36385CDA7D881956A422374741BBD508 /* Pods-QCharge.release.xcconfig */;
 			buildSettings = {
@@ -953,114 +1279,9 @@
 			};
 			name = Release;
 		};
-		1B8B7CF2DB6F0B76B6D7DE8C7BB82D63 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 941C510A8BEA3C4A03EE81F45A4A8CAB /* SkyFloatingLabelTextField.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
-				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
-				PRODUCT_NAME = SkyFloatingLabelTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2677AC0A8CF3CAA10603C631524E2614 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7136A5CA2C2C844A976B3D0270C4DC4 /* SwipeableTabBarController.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController.modulemap";
-				PRODUCT_MODULE_NAME = SwipeableTabBarController;
-				PRODUCT_NAME = SwipeableTabBarController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		612F2A7AD8EEE43229D101D768A31AEE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D60DE86138A821DE2B22FB06343B1A2E /* SCLAlertView.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SCLAlertView/SCLAlertView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
-				PRODUCT_MODULE_NAME = SCLAlertView;
-				PRODUCT_NAME = SCLAlertView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		656891F1001B7DAF3A78805997AFFC1B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE68081607E8B0C1EAD7AEAEBD2196D0 /* SkyFloatingLabelTextField.release.xcconfig */;
+			baseConfigurationReference = BF6340086353E8CB07DAFF9C1B16B767 /* SkyFloatingLabelTextField.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1095,7 +1316,7 @@
 		};
 		6A8043845E860BC5814D10E02A4392E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B29AD33881B76077D9ECF507A048892 /* CircleBar.debug.xcconfig */;
+			baseConfigurationReference = 0E3075289CFC8EE039E9C3C87921CE2A /* CircleBar.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1130,7 +1351,7 @@
 		};
 		78501223C31CE88F29E288DC236A4088 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C86840D0CA91EEBE9527A9BAAC068D8 /* FlexibleSteppedProgressBar.release.xcconfig */;
+			baseConfigurationReference = 246C1A7100C5D03794232A2DFEDE6AE2 /* FlexibleSteppedProgressBar.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1165,7 +1386,7 @@
 		};
 		8C2C63CEAF3B602CBF6B30B8E4CA124D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65370B4D69FB074C9C55E012D4BCF1C1 /* SCLAlertView.debug.xcconfig */;
+			baseConfigurationReference = E3DF122C15543883788906B950CE5E69 /* SCLAlertView.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1191,43 +1412,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AB74BBE7054382E6B43877191DB0A532 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D7A87A1B157E252CA0A6AE1D7129943 /* Pods-QCharge.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QCharge/Pods-QCharge-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QCharge/Pods-QCharge.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1302,7 +1486,7 @@
 		};
 		C59E84C7C4962698D97E8722A50D4A68 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C106D88FAB74AB359731A11B570EC4B /* SwipeableTabBarController.debug.xcconfig */;
+			baseConfigurationReference = B85C074551D645447AEAC1B122171A22 /* SwipeableTabBarController.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1399,7 +1583,7 @@
 		};
 		D8B129B5837973EF9BA84A770DA45FE2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C5B7D8F5911639225311A917F5ACA4E /* CircleBar.release.xcconfig */;
+			baseConfigurationReference = DE57EA00C5100C6388C2B632BFE693D3 /* CircleBar.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1435,7 +1619,7 @@
 		};
 		EEB6201C1F7807C95823282B32B1BD3B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7D788537CE54F1ECA9B984BD43BE4A7 /* FlexibleSteppedProgressBar.debug.xcconfig */;
+			baseConfigurationReference = C53EFD0133A6199F86ED4110934718EB /* FlexibleSteppedProgressBar.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1469,7 +1653,7 @@
 		};
 		F8D0D20403B935F21F8C6F525E6704A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C253B1E221961F22E6A1626AC3B42E4D /* SimpleCheckbox.debug.xcconfig */;
+			baseConfigurationReference = EBAAA293F6D539F7F0BEAD9F7E009AE1 /* SimpleCheckbox.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1505,6 +1689,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		01C95DB475EFC16EC6FC1F87E2E5689C /* Build configuration list for PBXNativeTarget "CircleProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59A6568057C82FEE1BDB252AB00D0A00 /* Debug */,
+				1C8152F189633CCBB24F69B99302D43C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0D6E0DC73A4DFBF30C70A7DFE2707E71 /* Build configuration list for PBXNativeTarget "CircleBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1532,15 +1725,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E79023914E55AC064F078B0A7F7F7A1 /* Build configuration list for PBXNativeTarget "Pods-QCharge" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AB74BBE7054382E6B43877191DB0A532 /* Debug */,
-				15FE1C6FDD29FBCD777B0F13141D5879 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1564,6 +1748,15 @@
 			buildConfigurations = (
 				C59E84C7C4962698D97E8722A50D4A68 /* Debug */,
 				2677AC0A8CF3CAA10603C631524E2614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA7D85D47F386F7A63B4C15211452E0D /* Build configuration list for PBXNativeTarget "Pods-QCharge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36728A1F8DEE0080AA70A482471B31B2 /* Debug */,
+				63C1E2F0B85ACA621B7B9631824A8EAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

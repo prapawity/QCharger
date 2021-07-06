@@ -12,7 +12,9 @@ struct UserModel: Codable {
     var lastName: String
     var email: String
     var password: String
+    var mobileNumber: String
     var vehicleInfo: VehicleModel
+    var balance: Double = 0.0
 }
 
 
